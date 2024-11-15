@@ -1,0 +1,1655 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+    <!ENTITY apos   CDATA "&#x2019;"  --     402 -->
+    <!ENTITY bdquo  CDATA "&#x201E;"  --     282 -->
+    <!ENTITY mdash  CDATA "&#x2014;"  --     101 -->
+    <!ENTITY nbsp   CDATA "&#x00A0;"  --       1 -->
+    <!ENTITY ndash  CDATA "&#x2013;"  --       3 -->
+    <!ENTITY rdquo  CDATA "&#x201D;"  --     106 -->
+    <!ENTITY rsquo  CDATA "&#x2019;"  --       1 -->
+
+]>
+<TEI.2 lang=nl-1900>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Henoch Arden</title>
+<author key="Tennyson, Alfred" ref="https://viaf.org/viaf/61540536/">Alfred Tennyson (1809&ndash;1892)</author>
+<respStmt><resp lang=en>Translator</resp> <name key="Bergh, Samuel Johannes van den" ref="https://viaf.org/viaf/142312138/">Samuel Johannes van den Bergh (1814&ndash;1868)</name></respStmt>
+<respStmt><resp lang=en>Contributor</resp> <name key="Kate, Jan Jakob Lodewijk ten" ref="https://viaf.org/viaf/122246293/">Jan Jakob Lodewijk ten Kate (1819&ndash;1889)</name></respStmt>
+<respStmt><resp lang=en>Transcription</resp> <name key="Hellingman, Jeroen">Jeroen Hellingman</name></respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=OLN>#####</idno>
+<idno type=OLW>#####</idno>
+<idno type=OCLC>#####</idno>
+<idno type=LibThing>#####</idno>
+<idno type=PGclearance>20060212015626tennyson</idno>
+<idno type=PGDPProjectId>projectID665a19454b08c</idno>
+<idno type=PGSrc>74724-Tennyson-Henoch-Arden</idno>
+<idno type=epub-id>urn:uuid:308f5339-8e94-40cd-954b-8e4163a03e84</idno>
+<idno type=PGnum>74724</idno>
+<date>2024-11-11</date>
+<availability lang=nl>
+<p>&availability.nl;
+
+<p>Dit eBoek is geproduceerd door het on-line gedistribueerd correctieteam op <xref url="https://www.pgdp.net/">www.pgdp.net</xref>.
+
+<p>Nederlandse bewerking van <hi lang=en>Enoch Arden</hi>. Het origineel is ook beschikbaar bij Project Gutenberg als eboek <xref url="pg:1358">1358</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type=Credits>Geproduceerd door Jeroen Hellingman en het Online Distributed Proofreading Team op https://www.pgdp.net/ voor Project Gutenberg.</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Alfred Tennyson</author>
+<title>Henoch Arden</title>
+<date>[1887]</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc lang=nl>
+    <tagsDecl lang=zxx>
+        <rendition selector=.small>font-size: small;</rendition>
+        <rendition selector=.large>font-size: large;</rendition>
+        <rendition selector=.vam>vertical-align: middle;</rendition>
+        <rendition selector=.center>text-align: center;</rendition>
+        <rendition selector=.i2>text-indent: 2em;</rendition>
+    </tagsDecl>
+
+    <p>Dit boek is weergegeven in oorspronkelijke schrijfwijze. Afgebroken woorden aan het einde van de regel zijn stilzwijgend hersteld. Kennelijke zetfouten in het origineel zijn verbeterd. Deze verbeteringen zijn aangegeven in de colofon aan het einde van dit boek.</p>
+
+</encodingDesc>
+<profileDesc>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=zxx>Geen taalkundige inhoud</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list lang=en>
+                <item>English poetry -- Translations into Dutch</item>
+            </list>
+        </keywords>
+    </textClass>
+    <listPrefixDef>
+        <prefixDef ident="f" matchPattern="(.+)" replacementPattern="https://www.pgdp.net/c/tools/page_browser.php?project=projectID665a19454b08c&amp;imagefile=$1.png&amp;mode=image">
+    </listPrefixDef>
+</profileDesc>
+<revisionDesc>
+    <list>
+        <item>2024-11-09 Begonnen.
+    </list>
+</revisionDesc>
+</teiHeader>
+<text rend="stylesheet(style/classic.css)">
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/front.jpg)">
+<figDesc>Oorspronkelijke voorkant.</figDesc>
+</figure>
+
+
+
+<pb id=pb.i facs="f:001">
+<div1 id=french type=FrenchTitle>
+
+
+<p rend="center large">HENOCH ARDEN.
+
+
+
+<pb id=pb.iii facs="f:003">
+<div1 id=titlepage type=TitlePage>
+
+
+<p><figure id=titlepage-image rend="image(images/titlepage.png)">
+<figDesc>Oorspronkelijke titelpagina.</figDesc>
+</figure>
+
+
+<titlePage>
+<docTitle><titlePart>HENOCH ARDEN.</titlePart></docTitle>
+
+<byline>NAAR HET ENGELSCH VAN
+
+<lb><docAuthor>Alfred Tennyson</docAuthor>
+
+<lb>DOOR
+
+<lb><docAuthor>S. J. VAN DEN BERGH</docAuthor>
+
+<lb>BIJ HET NEDERLANDSCHE VOLK INGELEID DOOR
+
+<lb><docAuthor>J. J. L. TEN KATE.</docAuthor>
+
+
+<docImprint>2<hi rend=sup>e</hi> Druk.
+
+<lb>ARNHEM&mdash;YBE YBES.
+</docImprint>
+</titlePage>
+
+
+
+
+<pb id=pb.v n=V facs="f:005">
+<div1 id=inleiding type=Introduction>
+<head>INLEIDING.</head>
+
+
+<p>Met een gevoel van diepen weemoed heb ik aan de nagedachtenis des dooden de kleine dienst trachten te doen, die ik gewoon was aan de vriendschap des levenden zoo blijmoedig te bewijzen. Nu wijlen mijn vriend <hi rend=sc>van den Bergh</hi> toch was gewoon van elken dichtbundel, waarmede hij onze Letterkunde stond te verrijken, mij de laatste proeve ter inzage te zenden, die dan, soms met een vraagteeken of een variant hier en daar, niet zelden met een Bravo van sympathie <hi>in margine</hi>, tot hem wederkeerde. Kon het anders? Voor meer dan dertig jaren waren wij vrienden geworden; en schoon weldra de stroom des levens ons uit elkanders nabijheid voerde, zoodat de zoete gewoonte van een bijna dagelijksch verkeer sints lang tot de herinneringen onzer jeugd behoorde, toch bleef de oude toegenegenheid van weêrszijde onverminderd <pb id=pb.vi n=VI facs="f:006">bestaan en bleven wij elkanders loopbaan, tot op den dag waarop de zijne zoo plotseling gesloten werd, met hartelijke belangstelling volgen.
+
+<p>Het past mij niet als <hi rend=sc>van den Bergh&apos;s</hi> lofredenaar op te treden: zijn naam is hem lofs genoeg. Dat het Vaderland in hem een zijner uitstekendste sieraden verliest, erkennen allen die een hart hebben voor ware verdiensten, allereerst die mede kunnen gaan in de richting, door dezen Dichter, uit den innigsten drang des geestes, gekozen en met zeldzame volharding tot den einde toe getrouw gebleven. Zij deelen de overtuiging, die hem bezielde en zich uitsprak in menig onvergetelijk Lied, dat het waarachtig Volksgeluk in nauw verband staat met de handhaving der Nationaliteit; en dat het geen vergeefsche arbeid is, waartoe de Dichter zich aangordt, als hij het Verledene aan zijn volk tracht voor te stellen als leerschool voor de Toekomst.
+
+<p><hi rend=sc>Van den Bergh</hi>, hoezeer aan zijne roeping getrouw, was daarom niet eenzijdig. Ook op menig ander gebied dan dat der Vaderlandsche Herinneringen of Opwekkingen, wist zijne Muze den weg te vinden of te banen, en de greep in »&apos;t volle Menschenleven&rdquo;<pb id=pb.vii n=VII facs="f:007">&mdash;naar Göthe »altijd belangrijk&rdquo;&mdash;was zijn meesterhand niet vreemd. Dat zal eerst recht blijken, wanneer zijn verstrooide bundels tot eene kompleete uitgave zullen worden verzameld, verrijkt met wat er onder zijne nagelaten poëzy uitstekendst voorhanden is.
+
+<p>Tot een proeve dier Nalatenschap moge de <hi>Henoch Arden</hi> strekken, die bij dezen het licht ziet. Wij bezitten van de pen van <hi>Erik&apos;s</hi> Zanger een reeks van gelukkige vertalingen, waaronder naar Moore en Byron, die met de beste overzettingen kunnen wedijveren. Maar de kroon werd dezen zijnen arbeid opgezet door de vertolking van Tennyson&apos;s meesterstuk, krachtig en toch zoetvloeiend, getrouw beide naar inhoud en vorm, als zij het oorspronkelijke terug geeft. Die »Visschers-Idylle&rdquo;, zooals men haar genoemd heeft, vol eenvoud en diep gevoel, heeft in Engeland en Noord-Amerika een opgang gemaakt als misschien alleen met dien van »de Negerhut&rdquo;, in der tijd, kan vergeleken worden; en de geestdrift, waarmede ook <hi rend=sc>van den Bergh&apos;s</hi> vertolking, bij de openlijke voordracht in verschillende Letterkundige Kringen van ons Vaderland, telkens werd aangehoord, bewijst te over, <pb id=pb.viii n=VIII facs="f:008">dat er voor dien bijval een zeer wezendlijke grond moet bestaan.
+
+<p>Het is hier de plaats niet om over Tennyson&apos;s dichterlijke beteekenis uit te wijden; eene verwijzing, onder anderen, naar de studie van Taíne, in het vierde deel van zijne <hi lang=fr>Histoire de la littérature anglaise</hi>, zij voor deze plaats voldoende, in afwachting van de uitvoerige beschouwing van <hi rend=sc>van den Bergh&apos;s</hi> vertolking, die wij van onze vaderlandsche kritiek mogen te gemoet zien. Maar de mededeeling van eene anekdote, die tot den <hi>Henoch Arden</hi> in nauw verband staat, ons onlangs door de periodieke pers verhaald, mag ik niet weigeren.
+
+<p>Zoo als men weet, is Koningin Victoria eene groote bewonderaarster van Tennyson&apos;s poëzy. Daarom verwekte het haar een smartelijke verbazing toen zij vernam, dat er een gerucht rondging, dat Tennyson&apos;s laatste gedicht, als eene apologie van het onwettige huwelijk, het brandmerk der onzedelijkheid wilde indrukken. De hooggeplaatste geestelijke, tot wien zij zich wendde, schudde bedenkelijk het hoofd; de adelijke dame, wier oordeel geraadpleegd werd, maar die, zoo als later bleek, op den man <pb id=pb.ix n=IX facs="f:009">nog altijd de satyre des jongelings te wreken had, het origineel van de »Lady Vere de Vere&rdquo;, om alles te zeggen, was nog strenger in haar vonnis. En zoo besloot dan de Koningin te eindigen met dat waarmede zij eigenlijk had moeten beginnen: den Dichter zelven om inlichting te vragen. Zij strekte dienzelfden middag haar wandelrid langs de kust wat verder dan gewoonlijk uit. Osborne ligt op tamelijken afstand van Tennyson&apos;s woning, insgelijks op het eiland Wight, maar de wegen zijn er goed, en weldra schemerde de villa des Dichters door de groene denneboomen. Straks ging de Koningin aan des Dichters zijde langs de hooge westkust der blauwe zee, die van witte zeilen wemelde, en bracht het gesprek op het onderwerp dat haar voor &apos;t oogenblik het meest ter harte ging. Met fijnen takt wees zij op de vele schoonheden van het Gedicht, om zoo onmerkbaar den weg tot haar bezwaar te banen. Op eenmaal werd hun het pad versperd door een stapel rijshout, dat dwars over den weg lag. Een lief kind van tien of twaalf jaren, met blond haar en helder blauwe oogen, stond er bij, hoogstverlegen nu, dat zij niet vlugger te werk kon gaan bij &apos;t saambinden van den bundel, die het pad <pb id=pb.x n=X facs="f:010">over &apos;t kerkhof belemmerde, juist nu de gewone weg door de laatste regens onbegaanbaar was gemaakt.
+
+<p>Tennyson hielp het meisjen met zijne gewone goedhartigheid; de Koningin gaf haar een geldstuk, en vroeg hoe zij heette? Zij heette Annie. »Wat allerliefst gezichtjen was dat&rdquo;, zei de Koningin eenige oogenblikken later, het kind naoogende, dat moedig haar zware houtvracht torschte. »Mij dunkt, zóó zou uwe Annie Lee er uit hebben gezien, ik bedoel, in den tijd van hare kinderspelen met Henoch en Philip, toen zij, om hunne jaloezy tot bedaren te brengen, hen met tranen bad
+
+<lg type=Group>
+    <l>»Om harentwil toch niet in twist te ontsteken,
+    <l>Daar zij van beiden &apos;t vrouwtjen wezen wou.&rdquo;
+</lg>
+
+<p>&mdash;»Maar lees ik daar niet den naam van Henoch?&rdquo; ging de Koningin voort, als zij in &apos;t voorbijgaan haren blik liet vallen op het inschrift van een der grauwbemoschte zerken, die ter wederszijde van het kerkhofpad lagen. »Ja, waarlijk, daar staat: »Henoch.&rdquo; Hoe dikwerf heb ik vroeger op mijne wandelingen dien aartsvaderlijken naam met onverschilligheid tusschen anderen gelezen, en nu is hij mij zoo belangrijk geworden. Jammer&rdquo;, <pb id=pb.xi n=XI facs="f:011">voegde zij er bij, »dat uw Philip hier ook nog niet een naamgenoot heeft, dan zou de verdichting stellig ter wille van dit kerkhof in werkelijkheid veranderen, en dit lommerig plekjen onder den nootenboom zou als het tooneel waar zij plaats had, worden aangewezen. Wat hebt gij daarop te zeggen?&rdquo;&mdash;»Zeer weinig, Uwe Majesteit&rdquo;, was het antwoord.&mdash;»Hoe dat?&rdquo;&mdash;»Omdat het mij innig smarten zou indien op het lieve kind van zoo even de smet eener onwettige geboorte kleven moest.&rdquo;&mdash;»Wat heeft dit meisjen met uw gedicht uitstaande?&rdquo;&mdash;»Zeer veel, Uwe Majesteit; want als de Bisschop van N. zijn wensch vervuld had gezien, zou de kleine Annie daar ginds de schande gedragen hebben, waarvan ik sprak.&rdquo;&mdash;De Koningin bleef eensklaps staan. »Gij bedoelt toch niet dat hier op dit eilandtjen een drama als dat van uwen Henoch Arden zou zijn afgespeeld?&rdquo;&mdash;En toen nu Tennyson op die vraag eenige oogenblikken het stilzwijgen bewaarde, ging zij voort: »O, ik weet, gij bewaart omtrent dergelijke dingen gaarne uw auteursgeheim; maar, waarde vriend, zeg mij, heeft Henoch Arden hier inderdaad geleefd? Ligt hij begraven onder dezen steen?&rdquo;&mdash;»Koningin&rdquo;, <pb id=pb.xii n=XII facs="f:012">antwoordde Tennyson, »ook in de nederigste en armste standen der <corr sic="Maatschapijij">Maatschappij</corr> ontmoet men somtijds voorbeelden van heldenmoed en zielenadel, die de geschiedschrijver den stillen beschouwer van het volksleven zou kunnen benijden. Wel hem, die zulke voorbeelden op hunne waarde schat met een eenvoudig gemoed, dat niet angstvallig omziet naar het ontleedmes der kritiek. Wel hem, die ze in liederen kleeden mag, zonder zich te ver van de waarheid te verwijderen. Maar bovenal wel hem, dat dat Lied waardig is. Zijn nagedachtenis blijft een zegen!&rdquo; Toen trad de Koningin over de graszoden naar dien lagen zerk, en leî hare hand op den bemoschten steen. Zwijgend stond zij een wijle, starende op de plek, waar de vermoeide strijder rustte. Eindelijk sprak zij, terwijl zij zich oprichtte: »Zacht drukke hem het lijkgesteente! Hij heeft toch recht gehandeld!&rdquo;
+
+<p>En hiermede ga <hi rend=sc>van den Bergh&apos;s</hi> <hi>Henoch</hi> ter waereld in; hij vinde vele vrienden, die het herhalen: »Hij ruste zacht; en zacht ook ruste zijn tolk onder ons. Zijn aandenken ook blijft in zegen!&rdquo;
+
+
+<p rend=signed>J. J. L. TEN KATE.
+
+
+
+
+
+<pb n=13 id=pb13 facs="f:013">
+</front>
+<body>
+<div1 id=henocharden type=Poem>
+<head rend="image(images/title.png) display(image-only)">Henoch Arden.</head>
+
+
+<lg><lg>
+<l rend="initial-image(images/initial-d.png) initial-offset(55px) initial-width(84px) initial-height(92px) ">De zee groef in de krijt-rots langs het strand
+  <l rend=i2>Een breede kloof, gevuld met schuim en zand.
+  <l rend=i2>Daar boven, om een kleine werf, verheft
+  <l rend=i2>Een groepjen huizen &apos;t roode dak; dan treft
+  <l rend=i2>Een kerkjen, half in puin gevallen, &apos;t oog,
+  <l rend=i2>En, hooger nog, loopt steil een lange straat
+  <l rend=i2>Tot aan een slanken molen naar omhoog.
+  <l rend=i2>Daar achter, in zijn donkergrijs gewaad
+  <l rend=i2>Tot in de lucht zich beurend, rijst een duin,
+  <l rend=i2>Met Hunnegraven op zijn ranke kruin.
+<pb n=14 id=pb14 facs="f:014"><l>Terwijl een lachend bosch van hazelaren,
+  <l rend=i2>Waar in den herfst de stadsjeugd heen gaat spoên,
+<l>Om zich een oogst van noten daar te garen,
+  <l rend=i2>Het dal bekleedt, met schilderachtig groen.
+</lg>
+
+<lg>
+  <l rend=i2>Hier zag dit strand voor bijna honderd jaar,
+  <l rend=i2>Drie kindren van drie huizen bij elkaâr.
+  <l rend=i2>&apos;t Was Annie Lee, elks lust en moeders kroon,
+  <l rend=i2>&apos;t Was Philip Ray, des mulders eenge zoon;
+  <l rend=i2>En Henoch Arden, &apos;t visschers-knaapjen, reeds
+  <l rend=i2>Na vaders schipbreuk jaar en dag een wees.
+  <l rend=i2>Hier speelden zij te midden van al &apos;t geen
+  <l rend=i2>Men vindt op d&apos; oever: netten, bruin geteerd,
+  <l rend=i2>Gedraaide kabels, ankers groot en kleen,
+  <l rend=i2>Soms half verroest en door den tijd verweerd.
+  <l rend=i2>En schuit en boot, getrokken op het strand.
+  <l rend=i2>Hier bouwden zij uit week en vochtig zand
+<l>Kasteelen, en bespiedden hoe de golven
+<pb n=15 id=pb15 facs="f:015"><l>Ze met haar witte kuiven overdolven,
+  <l rend=i2>Of volgden en ontvluchtten dan met spoed
+  <l rend=i2>De vlugge baar, die opkwam met den vloed.
+  <l rend=i2>En lieten daar hun voetstap iedren dag,
+  <l rend=i2>Dien iedre dag door &apos;t zeenat wisschen zag.
+</lg>
+
+<lg>
+  <l rend=i2>Een enge grot gaapte in de rots omlaag.
+  <l rend=i2>De kindren speelden daarin altijd graag,
+  <l rend=i2>En meestal &bdquo;eigen woningen.&rdquo; Van daag
+<l>Was Henoch heer des huizes, Philip morgen,
+<l>Daar Annie steeds als huisvrouw had te zorgen.
+  <l rend=i2>Maar nu en dan wou Henoch heel een week
+  <l rend=i2>Er meester zijn: &bdquo;dit is mijn huis en zij
+  <l rend=i2>&bdquo;Mijn lief klein vrouwtjen.&rdquo;&mdash;&bdquo;Ze is het ook van mij,&rdquo;
+  <l rend=i2>Zei Philip dan, van stille gramschap bleek.
+<l>&bdquo;Elk om zijn beurt.&rdquo; Maar als zij samen twistten,
+  <l rend=i2>Won Henoch, vrij wat boutiger, &apos;t altijd,
+<l>En dan riep Philip, &apos;t jeugdig bloed aan &apos;t gisten,
+  <pb n=16 id=pb16 facs="f:016"><l rend=i2>En huilende van machtelooze spijt:
+  <l rend=i2>&bdquo;Ik haat u, Henoch!&rdquo; en dan weende ook trouw
+<l>&apos;t Klein vrouwtjen meê en eindde met te smeeken,
+<l>Om harentwil toch niet in twist te ontsteken,
+  <l rend=i2>Daar zij van beiden &apos;t vrouwtjen wezen wou.
+</lg>
+
+<lg>
+<l>Maar toen der kindschheid dageraad ging scheiden
+  <l rend=i2>En de eertijds ongekende warmtegloed
+  <l rend=i2>Van &apos;s levens rijzend zonlicht in &apos;t gemoed
+<l>Door elk van hen gevoeld werd, vestten beiden
+  <l rend=i2>Hun zinnen op dat ééne meisje alleen.
+<l>En Henoch openbaarde haar zijn liefde;
+  <l rend=i2>Maar Philip minde in stilte, en Annie scheen scheen&mdash;
+<l>Wat menigmaal den jongling innig griefde&mdash;
+  <l rend=i2>Veel vriendlijker voor Philip dan voor hem.
+  <l rend=i2>Toch had ze Henoch lief, hoewel geen stem
+  <l rend=i2>Daar binnen &apos;t zeide, en zij het had ontkend
+  <l rend=i2>Aan wie het haar gevraagd had. Henoch hield
+  <pb n=17 id=pb17 facs="f:017"><l rend=i2>Den blik steeds vaster naar één doel gewend,
+  <l rend=i2>Te sparen wat hij sparen kon, bezield
+<l>Door één gedachte: een eigen boot te koopen,
+  <l rend=i2>Waarmeê hij zich zijn nooddruft winnen zou,
+<l>En, Annie, &apos;t middelpunt van al zijn hopen,
+  <l rend=i2>Te voeren naar zijn woning als zijn vrouw.
+<l>De zegen kroonde zóó zijn onderwinden,
+  <l rend=i2>Dat in het eind, zelfs mijlen langs de kust,
+  <l rend=i2>Geen visschersman, zoo in &apos;t gevaar gerust
+<l>Zoo stout en zoo gelukkig, was te vinden
+  <l rend=i2>Als Henoch was. Ook werkte hij een jaar
+<l>Aan boord eens koopvaardijschips, met het streven
+  <l rend=i2>Alom, altoos te zijn van zessen klaar;
+<l>En zelfs tot driemaal redde hij het leven
+<l>Eens drenklings, met de branding aangedreven,
+  <l rend=i2>En worstlend met de kenterende baar.
+  <l rend=i2>Hij was de lievling van het stadje; en vóór
+<l>Het een-en-twintigst lentseizoen zijns levens
+  <l rend=i2>Volend was, vond zijn zoetste wensch gehoor:
+<l>Hij kocht een eigen boot en richtte tevens
+  <pb n=18 id=pb18 facs="f:018"><l rend=i2>Voor Annie, halverweg de nauwe straat
+<l>Die oploopt naar den hoogen, slanken molen,
+  <l rend=i2>Een woning in, gants voegzaam met hun staat,&mdash;
+<l>Een vriendlijk nestjen, als in &apos;t groen verscholen.
+  <l rend=i2>Een wijl daarna, des avonds, toen van &apos;t goud
+<l>Der herfstzon zacht de kruin des heuvels blaakte
+  <l rend=i2>En stroomde door het hazelarenwoud,
+<l>Ging, waar ze steeds een feestdag zich van maakte,
+  <l rend=i2>De blijde jeugd van &apos;t vlek, met korf en mand
+  <l rend=i2>Uit nooten plukken. Philip kwam wat laat:
+  <l rend=i2>Zijn vader had den jongling noodig, want
+  <l rend=i2>Krank was hij en gesteld op Philips praat.
+<l>Maar toen hij juist de hoogte zou bestijgen,
+  <l rend=i2>Waar &apos;t sluikend bosch daalt naar den heuvelrand,
+<l>Zag hij het paar, in stil welsprekend zwijgen,
+  <l rend=i2>Henoch en Annie zittend hand in hand,
+<l>Diens groot grijs oog en half verweerde kaken
+<l>Zacht van een stil en heilig vuur aan &apos;t blaken
+  <l rend=i2>Als op een altaar brandt. Hij zag&mdash;en las
+<l>Zijn vonnis in hun trekken en hun oogen.
+<pb n=19 id=pb19 facs="f:019"><l>Toen zich hun wangen naar elkander bogen,
+  <l rend=i2>Ontsnapte hem een doffe kreet en ras
+  <l rend=i2>Wegsluipend, als in &apos;t dichte kreupelhout
+  <l rend=i2>&apos;t Gewonde hert, en door geen oog aanschouwd,
+<l>Doorleefde hij, terwijl van pret de dreven
+  <l rend=i2>Weêrgalmden, daar zijn uur van bange smart,
+<l>Stond op, en nam toen voor geheel zijn leven
+  <l rend=i2>Een honger met zich, die hem knaagde aan &apos;t hart.
+</lg>
+
+<lg>
+  <l rend=i2>Dus trouwden zij, en bij hun echtverbond
+  <l rend=i2>Klonk vroolijk klokgeklep het stadjen rond,
+<l>En &apos;t jonge paar zag zeven blijde jaren,
+  <l rend=i2>Door wederzijdsche liefde vol geluk,
+  <l rend=i2>Door eerlijke&apos; arbeid zonder bangen druk,
+<l>Gezegend door gezondheid, henenvaren.
+  <l rend=i2>Ook kindren droeg hun echt, en wel het eerst
+  <l rend=i2>Een dochter. Bij den eersten kreet van &apos;t wicht
+  <l rend=i2>Werd hij terstond door d&apos;eedlen wensch beheerscht
+  <pb n=20 id=pb20 facs="f:020"><l rend=i2>De zuinigheid steeds te oefnen als een plicht,
+<l>Om dees zijn lievling beter op te leiden
+  <l rend=i2>Dan hij en zij weleer was opgevoed.
+  <l rend=i2>Een wensch, hernieuwd in &apos;t diepste van &apos;t gemoed
+<l>Toen, twee jaar later, zij een wieg bereidden
+  <l rend=i2>Voor nog een spruit, een zoontje, d&apos;afgod van
+  <l rend=i2>Haar eenzaamheid, wanneer heur brave man,
+<l>Haar Henoch, dobberde op de ontrouwe baren,
+  <l rend=i2>Of, landwaarts in, op weg was. Want gewis,
+  <l rend=i2>Zijn witbont paard en altijd lekkre visch,
+<l>Gepakt in wier, dat naar de zee rook, waren
+  <l rend=i2>Zoowel als zijn hoog-rood gekleurd gelaat,
+<l>Waar menig storm op zee was langs gevaren,
+  <l rend=i2>Niet slechts bekend op &apos;t marktplein en de straat,
+<l>Maar zelfs tot in de lommerrijke dreven
+  <l rend=i2>Ver achter &apos;t duin, zelfs tot op &apos;t burchtslot, waar
+  <l rend=i2>Voor de oude brug &apos;t arduinen leeuwenpaar
+<l>Het wapenschild des landheers houdt geheven
+  <l rend=i2>En de iepenboom, geschoren en gesnoeid
+<l>Den vreemden vorm eens pauws had aangenomen,
+<pb n=21 id=pb21 facs="f:021"><l>En iedren vrijdag Arden aan zag komen
+<l>Met visch, verschalkt in &apos;t hart der zilte stroomen,
+  <l rend=i2>En dikwijls door den snellen rid vermoeid.
+</lg>
+
+<lg>
+  <l rend=i2>Toen, als bij menschelijke zaken meer,
+  <l rend=i2>Ja stééds gebeurt, kwam daar een ommekeer.
+  <l rend=i2>Tien mijlen verder noordwaarts op, ontsloot
+  <l rend=i2>M&apos; een haven, die een beter diepgang bood.
+  <l rend=i2>Dáárheen ging Henoch vaak te land of zee.
+  <l rend=i2>En eens, toen hij daar was, en op de reê,
+  <l rend=i2>Geklommen in de mast, aan &apos;t werk was, gleed
+  <l rend=i2>Hij uit en viel. &apos;t Was schriklijk, wat hij leed.
+  <l rend=i2>Terwijl hij nog in &apos;t gasthuis neêrlag, bracht
+  <l rend=i2>Zijn vrouw op nieuw een zoon, een zieklijk kind
+  <l rend=i2>Ter wereld, onderkroop een valsche vrind
+  <l rend=i2>Hem schandlijk in zijn nering. En een nacht
+  <l rend=i2>Van twijfel viel op zijn bedrukten geest,
+  <l rend=i2>Hoewel hij steeds godvreezend was geweest,
+  <pb n=22 id=pb22 facs="f:022"><l rend=i2>Toen hij daar werkloos lag en zonder kracht,
+  <l rend=i2>&apos;t Was of een martlend schrikbeeld hem bekroop,
+  <l rend=i2>Als hij zijn kroost zich voorstelde, altoos door
+  <l rend=i2>Een leven leidend, arm aan vreugd en hoop.
+  <l rend=i2>Steeds van de hand den tand in, slovend voor
+  <l rend=i2>Een sobre bete, en haar, die hij als kind
+  <l rend=i2>Reeds had vereerd, en nu zoo teêr bemind,
+<l>Als beedlares! Dan bad hij God gestadig:
+<l>&bdquo;Wat me overkoom&apos;, spaar hun dat lot genadig!&rdquo;
+  <l rend=i2>Eens toen hij &apos;t bad, kwam de eignaar van de kiel
+  <l rend=i2>Waar Henoch op gewerkt had, in de ziel
+  <l rend=i2>Getroffen door zijn onspoed, bij hem; daar
+  <l rend=i2>Hij Henoch kende en van den zeeman hiel;
+  <l rend=i2>Sprak van zijn schip, reeds half ter afreis klaar
+  <l rend=i2>Naar China, en bood hem welwillend aan
+  <l rend=i2>Als bootsman op dien bodem meê te gaan.
+<l>Zou hij dat aanbod afslaan? Eerst na weken
+  <l rend=i2>Voer &apos;t schip dees haven uit. Vol dankbaarheid
+<l>Dat hem dit <corr sic=andwoord>antwoord</corr> op zijn vurig smeeken
+  <l rend=i2>Gewierd, sprak Henoch: &bdquo;Ja, ik ben bereid.&rdquo;
+</lg>
+
+<pb n=23 id=pb23 facs="f:023"><lg>
+  <l rend=i2>Dus scheen de schaâuw van ramp en tegenspoed
+  <l rend=i2>Niet zwaarder dan het wolkjen, dat de baan
+  <l rend=i2>Der zon een oogwenk afbreekt om een vloed
+  <l rend=i2>Van sterker licht daarna te doen ontstaan.
+  <l rend=i2>Maar wat moest, als hij zeewaart was gegaan
+  <l rend=i2>Zijn vrouw en kroost beginnen? Henoch lag
+<l>Dus lang en breed zijn plannen te overwegen.
+  <l rend=i2>Zou hij de boot verkoopen, jaar en dag
+<l>Door hem geliefd als bron van rijken zegen?
+  <l rend=i2>Wat had zij hem in storm en hoogen vloed
+  <l rend=i2>Het hoofd geboôn! Hij kende haar zoo goed
+  <l rend=i2>Als &apos;t paard gekend is door zijn ruiter. Toch
+  <l rend=i2>Verkoopen zou hij &apos;t scheepjen, en voor &apos;t geld
+  <l rend=i2>Wordt Annie in een kleine zaak gesteld,
+  <l rend=i2>Een winkel voor het zeevolk, om daar nog
+<l>Zich van te voên, zoo lang hij uit zou blijven.
+<l>Zou hij niet zelf daar ginder handel drijven?
+  <l rend=i2>De reis doen meer dan eens, ja twee, drie keer,
+<l>Zelfs zoo veel maal als hij zou noodig achten?
+  <l rend=i2>Ten laatste zou hij keeren als een heer
+<pb n=24 id=pb24 facs="f:024"><l>En eignaar van een grooter schip, dat vrachten
+  <l rend=i2>Zou varen van geweld, en van dien stond
+<l>Zich voegen naar een makkelijker leven,
+<l>Zijn kindren al wat goed was kunnen geven
+  <l rend=i2>Voor hoofd en hart, en zóó op Englands grond
+<l>In vreê zijn dagen bij de zijnen enden.&mdash;
+</lg>
+
+<lg>
+  <l rend=i2>Dus overlegde Henoch &apos;t in zijn hart.
+<l>Daarop ging hij zijn schreden huiswaart wenden,
+  <l rend=i2>Kwam bij zijne Annie, die het kind der smart
+  <l rend=i2>De borst juist gaf. Met luiden harteklop
+<l>En luider vreugdekreet vloog zij hem tegen,
+<l>Lei hem het wicht, haar jongsten huwlijkszegen,
+  <l rend=i2>In de armen. Henoch nam het knaapjen op,
+  <l rend=i2>Hij koosde &apos;t wicht en streelde &apos;t poezel vleesch,
+<l>Verblijdde zich bij &apos;t zien dier lieve trekken,
+<l>Maar had geen moed zijn plannen nog te ontdekken
+  <l rend=i2>Aan Annie eer een nieuwe morgen rees.
+</lg>
+
+<pb n=25 id=pb25 facs="f:025"><lg>
+<l>Toen,&mdash;&apos;t was voor &apos;t eerst, sinds ze aan haar linkerhand
+<l>Den ring van Henoch droeg,&mdash;ontwaakte in haar
+<l>Een eigen wil: toen bood zij tegenstand,
+<l>Niet, fel, maar met herhaalde beden, maar
+<l>Met menig droeven kus en menig traan,
+<l>Bij dag en nacht geschreid, (zij voelde &apos;t, dat
+<l>Slechts onheil uit zijn plannen zou ontstaan)
+<l>Bezwoer hem bij zijn liefde, smeekte en bad:
+<l>Indien hij met haar lijden was begaan,
+<l>Zoo &apos;t welzijn van zijn kroost hem lief was, mocht
+<l>Hij zich dan wagen op zoo verren tocht?&mdash;
+<l>Dan hij, die eigen lust uit &apos;t oog verloor
+<l>En slechts voor haar en &apos;t kroost bezorgd was, liet
+<l>Haar vruchtloos bidden, weifelde zelfs niet,
+<l>En zette, al viel &apos;t hem zwaar, zijn plannen door.
+</lg>
+
+<lg>
+<l>Dus scheidde Henoch van zijn kameraad,
+<l>Zijn vaartuig, vaak zijn deelnoot in &apos;t gevaar,
+  <pb n=26 id=pb26 facs="f:026"><l rend=i2>En kocht voor Annie allerhande waar,
+  <l rend=i2>En maakte toen heur kamer voor aan straat
+  <l rend=i2>Met kast en planken tot een winkel klaar,
+  <l rend=i2>En, zoo lang Henoch t&apos;huis was, klonk er braaf
+  <l rend=i2>(Zoodat het huisjen dreunde van &apos;t geweld)
+  <l rend=i2>&apos;t Geluid van zaag, bijl, hamer, boor en schaaf,
+  <l rend=i2>Maar Annie voelde toch haar hart bekneld,
+  <l rend=i2>Als bouwde men haar moordschavot, tot dat
+  <l rend=i2>Er alles afgewerkt was en zijn hand
+  <l rend=i2>&mdash;De plaats was klein&mdash;er &apos;t al gestapeld had,
+  <l rend=i2>Bijna zoo netjes als natuur in plant
+<l>En bloem haar zaad te pakken weet. Toen staakte
+  <l rend=i2>Hij, die tot &apos;t laatst voor Annie werken wou,
+<l>Den arbeid, ging vermoeid naar bed, en raakte
+  <l rend=i2>In slaap en sliep tot aan het morgengrauw.
+</lg>
+
+<lg>
+<l>En toen die laatste morgen was verrezen,
+  <l rend=i2>Was Henoch welgemoed en onbevreesd,
+<pb n=27 id=pb27 facs="f:027"><l>En had gewis gelachen met haar vreezen,
+  <l rend=i2>Zoo &apos;t niet de vrees van Annie waar&apos; geweest.
+  <l rend=i2>Maar Henoch, als een braaf, godvreezend man,
+  <l rend=i2>Zocht troost waar &apos;t kind van God dien vinden kan,
+<l>En God en mensch elkanderen ontmoeten.
+  <l rend=i2>Hij bad voor vrouw en kindren, welk een lot
+  <l rend=i2>Hem dan ook zelf bereid mocht zijn door God&mdash;
+<l>Dat Hij hun &apos;t leed der scheiding zou verzoeten.
+  <l rend=i2>Toen sprak hij: &bdquo;Annie lief, bedwing uw smart;
+<l>&bdquo;Dees reis moet, en Gods liefde zal &apos;t gehengen,
+<l>&bdquo;Ons huisgezin een milden voorspoed brengen.
+  <l rend=i2>&bdquo;Houd me aan uw haard een plaats en in uw hart;
+<l>&bdquo;Want, eer gij &apos;t gist, klinkt weêr me uw &bdquo;welkom&rdquo; tegen.&rdquo;
+  <l rend=i2>En, zacht de hand aan &apos;t wiegjen slaande, sprak
+  <l rend=i2>Hij teêr: &bdquo;dit schaap, zoo sukkelend en zwak&mdash;
+<l>Ik heb er hem te liever om. God zegen&apos;
+  <l rend=i2>&bdquo;Ons jongste ventjen, nu en t&apos;allen tijd.
+  <l rend=i2>&bdquo;Wanneer ik van mijn reis terug ben, rijdt
+<l>&bdquo;Hij zeker op de <corr sic="kniën">knieën</corr> van zijn vaârtjen,
+<l>&bdquo;Als eens onze oudste jongen, dapper paardtjen.
+  <pb n=28 id=pb28 facs="f:028"><l rend=i2>&bdquo;&apos;k Verhaal hem dan gedurig voor en na
+<l>&bdquo;Van wat ik zag aan verre vreemde stranden,
+<l>&bdquo;En doe van pret hem klappen in de handen.&mdash;
+  <l rend=i2>&bdquo;Kom, Annie, kom! lach nog eens eer ik ga.&rdquo;
+</lg>
+
+<lg>
+<l>Terwijl zij hem dus hoopvol hoorde spreken,
+  <l rend=i2>Werd ook haar hart tot hopen haast verleid;
+<l>Maar toen hij, met meer ernst, begon te preeken
+  <l rend=i2>Op zeemanswijs van Gods Voorzienigheid
+  <l rend=i2>En &apos;s Hemels hulp, toen hoorde zij zijn stem
+  <l rend=i2>En hoorde niet; als &apos;t meisjen, dat van hem
+  <l rend=i2>Vervuld, die vaak haar hier geholpen had,&mdash;
+  <l rend=i2>Haar kruik zet onder de fontein en &apos;t nat
+<l>Hoort en niet hoort en haar laat overloopen.
+  <l rend=i2>Ten laatste sprak ze: &bdquo;Och, Henoch! o gij zijt
+  <l rend=i2>&bdquo;Zoo wijs, maar &apos;k zeg, uw wetenschap ten spijt:
+  <l rend=i2>&bdquo;Dat nooit voor mij op weerzien is te hopen.&rdquo;
+  <pb n=29 id=pb29 facs="f:029"><l rend=i2>&bdquo;Wel,&rdquo; zeide Henoch, &bdquo;dan, na korten tijd,
+  <l rend=i2>&bdquo;Zal ik het uwe aanschouwen. &apos;t Barkschip, waar
+  <l rend=i2>&bdquo;&apos;k Meê ga, komt hier voorbij&rdquo; (hij noemde haar
+  <l rend=i2>Den dag) &bdquo;neem dan een verrekijker, blik
+  <l rend=i2>&bdquo;Naar mijn gelaat, en ban uw angst en schrik!&rdquo;
+</lg>
+
+<lg>
+<l>Maar toen het oogenblik der scheidenssmarte
+  <l rend=i2>Gekomen was, sprak hij: &bdquo;Schep moed en troost!
+  <l rend=i2>&bdquo;Zie, Annie-lief, zie op het dierbaar kroost,
+<l>&bdquo;En houd, tot ik u weder druk aan &apos;t harte,
+  <l rend=i2>&bdquo;De zaken reê; want ik moet gaan, en wees
+  <l rend=i2>&bdquo;Voor mij niet meer bezorgd, of, hebt gij vrees,
+  <l rend=i2>&bdquo;Werp al uw zorg op God!&mdash;Dàt anker houdt!
+  <l rend=i2>&bdquo;Is Hij het niet, die mij ook ginds aanschouwt?
+  <l rend=i2>&bdquo;Is Hij niet dáár, op Wien &apos;k hier heb vertrouwd?
+  <l rend=i2>&bdquo;Zijns is de zee: Hij maakte haar.&rdquo;
+</lg>
+
+<lg>
+<l>Hij op, en sloeg zijne armen om haar henen
+<pb n=30 id=pb30 facs="f:030"><l>En kuste lang zijn gants-verbaasde kleenen.
+  <l rend=i2>Maar &apos;t derde kind, het ziekelijke schaap,
+  <l rend=i2>Dat, na een zware koortsnacht, lag in slaap,
+  <l rend=i2>Hij wilde niet dat dit gewekt werd, toen
+  <l rend=i2>Zijne Annie &apos;t op woû nemen: &bdquo;Lieve vrouw,
+  <l rend=i2>&bdquo;Maak,&rdquo; zei hij, &bdquo;&apos;t kind niet wakker. Hoe toch zou
+  <l rend=i2>&bdquo;Hij &apos;t afscheid zich herinren?&rdquo; gaf een zoen
+<l>Aan &apos;t wichtjen in de wieg; maar Annie knipte
+  <l rend=i2>Een krulletjen van &apos;s jongskens voorhoofd af,
+  <l rend=i2>En gaf &apos;t hem&mdash;dat behield hij tot aan &apos;t graf&mdash;
+<l>Maar nu ook greep hij snel zijn bundel, slipte
+  <l rend=i2>De voordeur uit, en handen wuivend, vloog
+  <l rend=i2>Hij &apos;t pad op&mdash;en was aanstonds uit het oog.
+</lg>
+
+<lg>
+<l>Den dag, die Henoch haar genoemd had, leende
+  <l rend=i2>Ze een kijker, maar het was vergeefs. Misschien
+  <l rend=i2>Had zij geen slag om door het glas te zien.
+<l>Misschien ook was haar oog, dat altoos weende,
+  <pb n=31 id=pb31 facs="f:031"><l rend=i2>Bij &apos;t uitzicht op het uur van zijn vertrek,
+  <l rend=i2>Wat dof en beefden haar de vingren&mdash;zij
+  <l rend=i2>Toch zag hem niet; en schoon hij stond op &apos;t dek,
+  <l rend=i2>Voer met het schip het oogenblik voorbij.
+</lg>
+
+<lg>
+  <l rend=i2>Nochtans zij bleef, en volgde &apos;t wijkend schip
+  <l rend=i2>Met turend oog, tot &apos;t niets was dan een stip,
+  <l rend=i2>En keerde huiswaarts, hem beweenend. Maar,
+  <l rend=i2>Schoon ze om hem treurde of hij gestorven waar&apos;,
+  <l rend=i2>Deed ze alles trouw wat haar door hem tot taak
+  <l rend=i2>Gesteld was. Dan, &apos;t ging slapjens met de zaak,
+  <l rend=i2>Daar ze in den handel niet was opgebracht,
+<l>Niet uitgeslapen was en niet bedriegen,
+<l>Zoo min als overvragen kon en liegen,
+  <l rend=i2>En zij gestaâg daarbij aan Henoch dacht.
+<l>Wat zou hij zeggen? Meer dan eens gedreven
+  <l rend=i2>Door nood en als ze in moeilijkheden zat,
+<l>Had zij heur waar voor minder weggegeven,
+  <pb n=32 id=pb32 facs="f:032"><l rend=i2>Dan waarvoor zij die ingeslagen had.
+  <l rend=i2>Haar zaak verliep; en, daarvan zich bewust,
+<l>Was zij neêrslachtig; en naar tijding smachtend
+  <l rend=i2>Die nimmer kwam, had de arme vrouw geen rust.
+<l>Zoo won zij zich, op beter dagen wachtend,
+  <l rend=i2>Een sober stukjen brood, en sleet zij stil
+  <l rend=i2>Een leven, door gebrek en droefheid kil.
+</lg>
+
+<lg>
+  <l rend=i2>Nu werd het derde, krank geboren kind
+  <l rend=i2>Staâg erger ziek, ofschoon het op den duur
+  <l rend=i2>Met al de zorg, waarmede een moeder mint,
+  <l rend=i2>Verpleegd werd. Toch, hetzij in menig uur
+  <l rend=i2>Het werk de moeder afriep van heur schat,
+  <l rend=i2>Dan uit gebrek aan &apos;tgeen &apos;t meest noodig had,
+  <l rend=i2>Of wijl zij &apos;t geld voor dokters niet bezat,
+  <l rend=i2>Het kwijnde weg, totdat het straks bezweek,
+  <l rend=i2>Als &apos;t vogeltjen, dat snel zijn kooi ontweek.
+</lg>
+
+<pb n=33 id=pb33 facs="f:033"><lg>
+  <l rend=i2>Die eigen week, toen &apos;t wicht begraven werd,
+  <l rend=i2>Gevoelde Philip onrust in het hart,
+  <l rend=i2>Dat hij haar nog niet troostte in al haar smart.
+  <l rend=i2>(Hij wenschte voor de droeve rust en vreê
+  <l rend=i2>Maar zag haar niet sints Henoch ging in zee.)
+  <l rend=i2>&bdquo;Wis,&rdquo; zeide Philip, &bdquo;&apos;k mag nu tot haar gaan
+  <l rend=i2>&bdquo;En zeggen hoe ik deel neem in haar lot.&rdquo;&mdash;
+  <l rend=i2>Hij ging door &apos;t eenzaam voorvertrekjen tot
+  <l rend=i2>De deur der achterkamer, klopte er aan;
+  <l rend=i2>En toen hem daar niet open werd gedaan
+<l>Na driemaal kloppens, trad hij schuchter binnen.
+<l>Maar Annie zat daar half verward van zinnen.
+  <l rend=i2>Nu pas haar kind aan de aarde was vertrouwd,
+  <l rend=i2>Was &apos;t al haar onverschillig wat ze aanschouwt,
+<l>Hield zij den blik maar op den muur geslagen,
+  <l rend=i2>Terwijl zij weende. Toen stond Philip op,
+  <l rend=i2>En stamelde met hangen harteklop:
+<l>&bdquo;Ik kom om, Annie! u een gunst te vragen.&rdquo;
+</lg>
+
+<pb n=34 id=pb34 facs="f:034"><lg>
+  <l rend=i2>Hij sprak&mdash;de hartstocht die in &apos;t antwoord lag:
+  <l rend=i2>&bdquo;Een gunst van iemand, die met elken dag
+  <l rend=i2>&bdquo;Meer &apos;t lijden voelt dat haar de ziel doorknaagt.&rdquo;
+  <l rend=i2>Sloeg Philip half ter neêr. Maar toch, in spijt
+  <l rend=i2>Van zijn bedeesdheid, met zijn hart in strijd,
+  <l rend=i2>Greep hij een stoel en nam, schoon ongevraagd,
+  <l rend=i2>Nu naast haar plaats&mdash;en sprak aldus haar aan:
+</lg>
+
+<lg>
+  <l rend=i2>&bdquo;Ik ben alleen daarom tot u gegaan,
+<l>&bdquo;Om over Henoch&apos;s plan met u te spreken.
+  <l rend=i2>&bdquo;Gij koost, ik heb altoos &apos;t ronduit gezeid,
+  <l rend=i2>&bdquo;Van ons den beste, een krachtig man, bereid
+<l>&bdquo;En ook in staat te doen&mdash;het is gebleken&mdash;
+  <l rend=i2>&bdquo;Wat hij besloot te doen met vasten wil.
+<l>&bdquo;En waarom is hij ver weg zee gaan bouwen,
+  <l rend=i2>&bdquo;U eenzaam achterlatend? Uit geen gril,
+<l>&bdquo;Of lust om eens de waereld rond te schouwen?
+  <l rend=i2>&bdquo;Neen, om zooveel te winnen door zijn vlijt
+<pb n=35 id=pb35 facs="f:035"><l>&bdquo;Dat hij zijn kindren beter op kan voeden
+  <l rend=i2>&bdquo;Dan u en hem gegund werd in der tijd,
+<l>&bdquo;Trotseert hij &apos;t woên van stormen en van vloeden.
+  <l rend=i2>&bdquo;Dat was zijn wensch! En als hij wederkeert,
+<l>&bdquo;Dan zal &apos;t hem zeer doen als hij moet ontwaren,
+  <l rend=i2>&bdquo;Hoe de eerste jeugd, waarin men &apos;t beste leert,
+<l>&bdquo;In doelloos slenteren is weggevaren.&mdash;
+<l>&bdquo;&apos;t Zou in zijn graf hem zelfs nog kwelling baren,
+  <l rend=i2>&bdquo;Wanneer hij wist, dat daaglijks, vroeg en laat,
+  <l rend=i2>&bdquo;Zijn kinderen verwilderen op straat.
+<l>&bdquo;Spreek, Annie! hebben wij niet heel ons leven
+  <l rend=i2>&bdquo;Elkaâr gekend? En daarom smeek ik u
+  <l rend=i2>&bdquo;Bij uwe liefde voor uw echtvriend, nu
+<l>&bdquo;Tot antwoord mij geen weigrend &bdquo;Neen!&rdquo; te geven.
+  <l rend=i2>&bdquo;Staat gij er op, welnu, als Henoch keert,
+  <l rend=i2>&bdquo;Geeft gij het mij terug&mdash;zoo gij &apos;t begeert.
+  <l rend=i2>&bdquo;Ik bid u, Annie! och versta mij wel:
+<l>&bdquo;Veroorloof mij, &apos;k ben rijk, ik kan het dragen,
+  <l rend=i2>&bdquo;Dat ik op school uw kinderen bestel:
+<l>&bdquo;Dit is de gunst, die ik van u kom vragen.&rdquo;
+</lg>
+
+<pb n=36 id=pb36 facs="f:036"><lg>
+  <l rend=i2>Toen antwoordde Annie, de oogen op den duur
+  <l rend=i2>In sombre smart geslagen naar den muur:
+  <l rend=i2>&bdquo;Ik kan u, ach! niet aanzien. &apos;k Schijn zoo zeer
+  <l rend=i2>&bdquo;Door &apos;t leed verbijsterd en zoo dwaas. Toen gij
+  <l rend=i2>&bdquo;Hier kwaamt was alles bitterheid in mij.
+  <l rend=i2>&bdquo;En nu, nu buigt uw vriendelijkheid mij neêr.
+<l>&bdquo;Maar Henoch leeft&mdash;&apos;t staat in mijn hart geschreven,
+<l>&bdquo;Hij geeft u &apos;t geld terug: dat&apos;s weêr te geven,
+  <l rend=i2>&bdquo;Maar wie betaalt u zulk een vriendschap weêr?&rdquo;
+</lg>
+
+<lg>
+<l>En Philip antwoordde: &bdquo;Annie, wilt ge mij
+  <l rend=i2>&bdquo;Dit dus vergunnen?&rdquo;
+</lg>
+
+<lg>
+                            <l rend="hemistich(^)">Daarop keerde zij
+<l>Zich om, stond op en sloeg haar weenende oogen
+  <l rend=i2>Op hem en blikte aldus een wijl hem aan,
+<pb n=37 id=pb37 facs="f:037"><l>Toen op zijn hoofd Gods zegen uit den hoogen
+  <l rend=i2>Inroepend, greep en drukte ze aangedaan
+  <l rend=i2>Zijn hand, en sloop haar needrig tuintjen in&mdash;
+  <l rend=i2>Dus ging hij huiswaarts met verruimden zin.
+</lg>
+
+<lg>
+  <l rend=i2>En Philip liet het paar ter schoole gaan,
+  <l rend=i2>En kocht hun boeken, en trok zich hun aan
+<l>Als een die voor de zijnen, slechts wil leven.
+  <l rend=i2>Maar daar hij aan &apos;t gesnap, dat haatlijk werd
+  <l rend=i2>In &apos;t praatziek vlek geen voedsel wilde geven,
+  <l rend=i2>Om Annies wil, ontzeide hij met smart
+  <l rend=i2>Zich menigmaal den zoetsten wensch van &apos;t hart.
+<l>En trad hij zelden slechts haar woning binnen.
+  <l rend=i2>Toch zond hij met de kindren groente en fruit,
+<l>Het beste dat hij op zijn erf mocht winnen,
+  <l rend=i2>En zocht voor haar de schoonste rozen uit:
+  <l rend=i2>Soms stuurde hij heur wel een vet konijn:
+  <l rend=i2>Ook zond hij, met de boodschap dat het fijn
+<pb n=38 id=pb38 facs="f:038"><l>En extra-wit was, om haar niet te krenken
+<l>Als wilde hij ze een kwetsende aalmoes schenken,
+  <l rend=i2>Wat meel zijns eigen molens naar haar stulp.
+</lg>
+
+<lg>
+<l>Maar Philip kon haar harte niet doorgronden.
+<l>Slechts zelden had hij haar in staat gevonden
+  <l rend=i2>Hem door een woord te danken voor zijn hulp.
+<l>Dan Philip was steeds alles voor haar kindren.
+  <l rend=i2>Men zag ze vaak van &apos;t uiterst eind der straat
+<l>Met luiden groet hem juichend tegenvlindren.
+  <l rend=i2>Als ware hij op school hun kameraad.
+<l>Zij waren meester in zijn huis en molen,
+  <l rend=i2>Vermoeiden zijn geduldige ooren met
+  <l rend=i2>Verhalen van hun kibblen en hun pret;
+<l>Zij klommen op zijn knieën en verscholen
+  <l rend=i2>Zich achter hem, en noemden strijk en zet
+  <l rend=i2>Hem vader Philip. Philip won al meer
+  <l rend=i2>Waar Henoch steeds verloor; want keer op keer
+<pb n=39 id=pb39 facs="f:039"><l>Scheen Henoch slechts een droombeeld, hun ontvaren,
+  <l rend=i2>Als een gedaante, die we in onzen waan
+<l>Soms in het waas van d&apos;uchtenddauw ontwaren
+  <l rend=i2>Aan &apos;t einde van een dicht begroeide laan,
+  <l rend=i2>Niet wetend welken weg ze heen zal gaan.
+<l>En zoo vervloog een tiental lange jaren
+  <l rend=i2>Sints Henoch van zijn dierbren afscheid nam,
+  <l rend=i2>Tot wie nooit taal of teeken van hem kwam.
+</lg>
+
+<lg>
+<l>Op zeekren najaarsavond ging met velen
+<l>Het kindrenpaar naar &apos;t bosch; daar zou men spelen
+  <l rend=i2>En nooten plukken. Moeder ging ook meê,
+  <l rend=i2>En vader Philip vroegen ze: maar hij
+  <l rend=i2>Was wit van meel bestoven als de bij,
+  <l rend=i2>En kon toch zóó niet meegaan op hun beê:
+<l>&bdquo;Kom met ons!&rdquo; Maar toen zij met sterker dringen
+  <l rend=i2>Hem nopen wilden meê naar &apos;t bosch te gaan,
+<l>En zelfs in &apos;t eind aan rok en hals hem hingen.
+  <pb n=40 id=pb40 facs="f:040"><l rend=i2>Toen lachte hij; hoe kon hij d&apos;eisch weêrstaan:
+<l>Want was niet Annie bij hen?&mdash;en zij gingen.
+</lg>
+
+<lg>
+  <l rend=i2>Maar na een goed eind klimmens door het zand
+  <l rend=i2>Ontzonk haar juist, waar naar den heuvelrand
+  <l rend=i2>Het slinkend boschjen afloopt, al heur kracht,
+  <l rend=i2>Ze sprak: &bdquo;laat mij wat rusten,&rdquo; en haar vriend
+  <l rend=i2>Zat naast haar, zeer met dat verzoek gediend.
+<l>Inmiddels, onder luid gejubel, vlogen
+<l>De kindren uit der oudren waakzame oogen,
+  <l rend=i2>En in het dichtst van &apos;t hazelarenbosch.
+<l>Zij huppelden en buitelden en gleden
+  <l rend=i2>Tot in het dal, en rolden in het zand,
+<l>Of trokken woest de takken naar beneden
+  <l rend=i2>Wanneer de vrucht te hoog hing voor hun hand.
+<l>Zij woelden en krioelden door elkander
+  <l rend=i2>En links en rechts aan allen kant door &apos;t woud
+<pb n=41 id=pb41 facs="f:041"><l>Daar op &apos;t geroep van d&apos;eenen knaap aan d&apos;ander
+  <l rend=i2>Het luidkeels: &bdquo;hier!&rdquo; klonk uit het kreupelhout.
+</lg>
+
+<lg>
+<l>Maar Philip, aan heur zijde neêrgezeten,
+  <l rend=i2>Dacht aan heur tegenwoordigheid niet meer.
+<l>En riep een donker uur, door hem gesleten
+  <l rend=i2>In &apos;t zelfde woud voor zijn verbeelding weêr,
+<l>Toen hij, gelijk &apos;t gewonde hert in &apos;t duister
+  <l rend=i2>Van &apos;t bosch eens kroop; maar in het eind sprak hij,
+<l>Terwijl hij &apos;t eerlijk voorhoofd ophief: &bdquo;Luister,
+  <l rend=i2>&bdquo;Wat klinken ginds die kinderstemmen blij!
+  <l rend=i2>&bdquo;Zijt gij vermoeid? zeg Annie?&rdquo; maar hij hoort,
+  <l rend=i2>Schoon hij die vraag herhaalt, van haar geen woord.
+  <l rend=i2>Zij zat het hoofd gebogen op haar schoot;
+  <l rend=i2>Waarop hij zuchtte&mdash;smartlijk aangedaan
+  <l rend=i2>&apos;t Schip is vergaan, helaas! het is vergaan.
+  <l rend=i2>Hoop maar niet meer. Wat doet g&apos;u zelf den dood
+<l>&bdquo;En maakt g&apos;uw kleenen tot volslagen weezen?
+  <pb n=42 id=pb42 facs="f:042"><l rend=i2>Zij antwoordde: &bdquo;&apos;k Dacht daar niet aan, o neen!
+  <l rend=i2>&bdquo;Maar &apos;k weet niet wat zoo bang mij &apos;t hart doet slaan,
+<l>&bdquo;Die kinderstemmen, doen me iets droevigs vreezen,
+  <l rend=i2>&bdquo;Ik voel bij dit geluid mij zoo alleen.&rdquo;
+</lg>
+
+<lg>
+<l>Daarop kwam Philip haar iets naderbij en sprak:
+  <l rend=i2>&bdquo;Hoor, Annie, &apos;k heb iets op mijn hart en och&mdash;
+  <l rend=i2>&bdquo;Sints lang&mdash;&apos;k weet niet wanneer er &apos;t kwam. Dat pak
+  <l rend=i2>&bdquo;&apos;t Moet nu er af. &apos;t Is enkel zinsbedrog,
+<l>&bdquo;Dat hij, die u, tien jaren lang geleden,
+  <l rend=i2>&bdquo;Verliet, nog leven zou&mdash;hoor mij dus aan.
+<l>&bdquo;Mijn ziel wordt door de felste smart bestreden,
+  <l rend=i2>&bdquo;Als &apos;k zie wat ge in uw armoede uit moet staan.
+<l>&bdquo;Ik kan niet, zoo als ik wel wenschte, u schragen,
+  <l rend=i2>&bdquo;Tenzij&mdash;misschien gist gij reeds wat ik trouw
+<l>&bdquo;En lang verborgen hield, maar nu ga vragen,&mdash;
+  <l rend=i2>&bdquo;De vrouw, zegt m&apos; is gevat:&mdash;&apos;k vraag u tot vrouw.
+<l>&bdquo;Het denkbeeld streelt mij dag en nacht de zinnen
+  <pb n=43 id=pb43 facs="f:043"><l rend=i2>&bdquo;Een vader voor uw kinderen te zijn,
+<l>&bdquo;Ik weet dat zij mij als een vader minnen,
+  <l rend=i2>&bdquo;Ik voel het diep, mijn liefde is meer dan schijn,
+<l>&bdquo;En ik verwacht dat, zoo wij samen trouwden,
+  <l rend=i2>&bdquo;Na al dien tijd van tegenspoed en kwaad,
+<l>&bdquo;Wij zeker zoo gelukkig wezen zouden
+  <l rend=i2>&bdquo;Als God een van zijn schepslen wezen laat.
+  <l rend=i2>&bdquo;Stel u de zaak eens goed en helder voor.
+<l>&bdquo;Ik ben in goeden doen, heb vriend noch magen,
+  <l rend=i2>&bdquo;Geen zorgen dan voor u en de uwen, hoor
+<l>&bdquo;Wij speelden saam in onze kindsche dagen
+  <l rend=i2>&bdquo;En &apos;k heb u langer dan gij weet bemind.&rdquo;
+</lg>
+
+<lg>
+  <l rend=i2>Toen antwoordde Annie teêr: &bdquo;gij waart me een vrind
+  <l rend=i2>&bdquo;Een engel in ons huis. O moog de Heer
+  <l rend=i2>&bdquo;U daarvoor zeegnen, Philip! met veel meer
+  <l rend=i2>&bdquo;Dan ik u wezen kan, vergelden! Kan
+  <l rend=i2>&bdquo;Men tweemaal minnen? Kan ik u zoo teêr
+  <pb n=44 id=pb44 facs="f:044"><l rend=i2>&bdquo;Liefhebben als ik Henoch had? Wat dan
+  <l rend=i2>&bdquo;Verlangt ge?&rdquo; En hij hernam: &bdquo;Ik ben tevreên
+  <l rend=i2>&bdquo;Ook zoo &apos;k een weinig minder word bemind
+  <l rend=i2>&bdquo;Dan Henoch werd.&rdquo;&mdash;&bdquo;Och!&rdquo; riep ze, &bdquo;beste vrind!&rdquo;
+  <l rend=i2>En door haar ziele voer een huivring heen,
+<l>&bdquo;Wacht nog een wijl. Als Henoch weêr zal komen,&mdash;
+  <l rend=i2>&bdquo;Maar Henoch zal niet komen&mdash;wacht een jaar.
+  <l rend=i2>&bdquo;Een jaar is immers ras voorbij, niet waar?
+<l>&bdquo;En in dat jaar heb &apos;k zeker meer vernomen.
+  <l rend=i2>&bdquo;Wacht dus zoo lang.&rdquo; En hij, maar half tevreên,
+<l>Zei: &bdquo;Annie, daar &apos;k gewacht heb heel mijn leven,
+  <l rend=i2>&bdquo;Kan ik nog wel een poosjen wachten.&rdquo;&mdash;&bdquo;Neen!&rdquo;
+<l>Riep zij uit, &bdquo;&apos;k heb u mijn woord gegeven
+  <l rend=i2>&bdquo;Een jaar slechts, langer waarlijk niet! Wilt gij
+<l>&bdquo;Nog wachten zoo als ik wacht?&rdquo; en bewogen
+  <l rend=i2>Sprak Philip toen: &bdquo;welnu, een jaar&mdash;het zij!&rdquo;
+</lg>
+
+<lg>
+<l>Hier zwegen beiden stil tot Philip, de oogen
+  <l rend=i2>Opheffend, &apos;t laatste schijnsel van den dag
+  <pb n=45 id=pb45 facs="f:045"><l rend=i2>Langs &apos;t Hunnengraf nog even weemlen zag.
+<l>Toen, duchtend dat de vochte najaarskoude
+<l>En de avondlucht zijne Annie schaden zoude,
+  <l rend=i2>Stond hij van &apos;t mosbed op en riep hij luid
+<l>Naar onder in het bosch, en aanstonds kwamen
+  <l rend=i2>De kinderen naar boven met hun buit,
+<l>Waarop ze saam den weg naar &apos;t stadjen namen.
+  <l rend=i2>Daar hield hij stil voor Annie&apos;s huisje&apos; en stak
+<l>De hand haar toe, terwijl hij vriendlijk zeide:
+  <l rend=i2>&bdquo;Zie, Annie! toen &apos;k daareven met u sprak,
+  <l rend=i2>&bdquo;Waart gij misschien dat oogenblik wat zwak;
+<l>&bdquo;Het was verkeerd dat mij mijn hart verleidde.
+  <l rend=i2>&bdquo;Ik ben aan u verbonden, gij zijt vrij.&rdquo;
+<l>Maar Annie gaf ten <corr sic=andwoord>antwoord</corr>, daar zij scheidde:
+  <l rend=i2>&bdquo;Ik ben verbonden even goed als gij.&rdquo;
+</lg>
+
+<lg>
+<l>Als lag er slechts een oogwenk tusschenbeide
+  <l rend=i2>Bij &apos;t daaglijksch zwoegen voor haar huisgezin,
+  <pb n=46 id=pb46 facs="f:046"><l rend=i2>En denkend aan zijn laatste woord, waarin
+  <l rend=i2>Hij haar gezegd had dat de teêrste min
+<l>Veel langer dan zij wist hem &apos;t hart doorblaakte,
+<l>Was weêr de herfst gekomen en hij naakte,
+  <l rend=i2>Haar heur belofte erinnrend, weêr tot haar.
+  <l rend=i2>&bdquo;Is &apos;t;&rdquo; vroeg zij hem, &bdquo;is &apos;t werklijk al een jaar?<corr sic="&rsquo;">&rdquo;</corr>
+  <l rend=i2>&bdquo;Ja, als op nieuw de nooten rijp zijn; kom
+  <l rend=i2>&bdquo;En zie!&rdquo; zei hij. Maar zij weerstond hem toch&mdash;
+  <l rend=i2>Te groot was zoo&apos;n verandring, zeker om
+  <l rend=i2>Reeds ja te zeggen.&mdash;Geef een maand haar nog.
+<l>Zij wist dat zij haar woord hem had gegeven&mdash;
+  <l rend=i2>Een maand; niets meer&mdash;een maand&mdash;dan was het goed.
+  <l rend=i2>Daarop zei Philip, en de donkre gloed
+<l>In &apos;t oog sprak van &apos;t verlangen, heel zijn leven,
+  <l rend=i2>Hoe ook voor elk verborgen, steeds gevoed,
+<l>Terwijl zijn stem een wijl begon te beven,
+  <l rend=i2>Gelijk de hand eens dronkaards beeft: &bdquo;Bepaal
+  <l rend=i2>&bdquo;Gij-zelf den tijd slechts, Annie!&rdquo; Bij die taal
+<l>Had zij om hem uit meêlij kunnen weenen.
+  <l rend=i2>Haar <corr sic=andwoord>antwoord</corr> werd gedurig uitgesteld.
+  <pb n=47 id=pb47 facs="f:047"><l rend=i2>Met een ontschuldiging die weinig geldt;
+<l>Beproefd werd zijn geduld en trouw met eenen,
+<l>Tot andermaal een half jaar was verdwenen.
+</lg>
+
+<lg>
+  <l rend=i2>Nu kwam, waar men zijn waan verijdeld zag,
+  <l rend=i2>De praatzucht van het stadjen aan den dag.
+  <l rend=i2>De een achtte Philip door geen ernst bezield,
+  <l rend=i2>Een tweede dacht dat zij haar hand onthield,
+  <l rend=i2>En merkte slechts behaagzucht op in haar.
+  <l rend=i2>En anderen bespotten weêr het paar,
+  <l rend=i2>Alsof hun liefde een gril, een dwaasheid waar&apos;.&mdash;
+  <l rend=i2>Een enkele, veel erger dan de rest,
+  <l rend=i2>In wien, als eiren in een slangennest,
+<l>Slechts schandlijke gedachten scholen, doelde
+  <l rend=i2>Op erger dingen nog. Haar eigen zoon
+<l>Zweeg, schoon zijn hart met Philip meê gevoelde,
+  <l rend=i2>En graag de hand gevat zag, haar geboôn&mdash;
+<l>Maar altoos bad met zacht en vriendlijk fleemen
+<pb n=48 id=pb48 facs="f:048"><l>Haar dochter, dat zij toch den man zou nemen,
+  <l rend=i2>Door elk van hen bemind met hart en ziel,
+<l>En de armoê dus voor goed zou zijn vergeten.
+  <l rend=i2>En Philips koon werd bleek, en hij verviel,
+<l>En &apos;t was of al dees dingen haar verweten:
+  <l rend=i2>&bdquo;Het is uw schuld&rdquo;.
+</lg>
+
+<lg>
+                          <l rend="hemistich(^)">Nu was op zeekren nacht
+  <l rend=i2>Door haar vergeefs de sluimer ingewacht,
+<l>En bad en smeekte ze ernstig om een teeken
+<l>&bdquo;Of Henoch dood was&rdquo;. &apos;t Hart scheen haar te breken.
+<l>Zij sprong van &apos;t bed, en ging een licht ontsteken;
+  <l rend=i2>Zij nam haar Bijbel, zocht er &apos;t teeken op,
+  <l rend=i2>En legde op &apos;t woord der Schrift haar vingertop:
+  <l rend=i2>&bdquo;In schaduw van een palmboom&rdquo;. &apos;t Had geen zin
+  <l rend=i2>Bij &apos;t geen zij hierin zocht; dies sloot ze gauw
+  <l rend=i2>Haar Bijbel dicht en sluimerde weêr in.
+  <l rend=i2>Op eens zag zij haar Henoch, in de schâuw
+  <pb n=49 id=pb49 facs="f:049"><l rend=i2>Eens palmbooms, zittende op een hoogte, door
+  <l rend=i2>De zon bestraald. &bdquo;Hij &apos;s heengegaan en zingt,&rdquo;
+  <l rend=i2>Zoo dacht ze, &bdquo;stemmend met der englen koor:
+  <l rend=i2>&bdquo;Eer in de hoogste Heemlen! Ginder blinkt
+<l>&bdquo;De zonne der gerechtigheid. De palmen
+<l>&bdquo;Die &apos;t zalig heir in &apos;t rond strooit onder &apos;t galmen:
+  <l rend=i2>&bdquo;&bdquo;Eer in de hoogste Heemlen!&rdquo; wuiven zacht
+  <l rend=i2>&bdquo;Hem koelte toe.&rdquo; Haar droom vlood met den nacht.
+<l>Ze ontwaakte. Nu was haar besluit genomen,
+<l>En spoedig liet ze Philip tot zich komen,
+  <l rend=i2>En sprak in felle ontroering: &bdquo;Daar bestaat
+<l>&bdquo;Geen reden waarom wij niet zouden trouwen.&rdquo;&mdash;
+  <l rend=i2>&bdquo;Om God en om ons-zelv&rdquo;, zoo sprak hij, &bdquo;laat,
+<l>&bdquo;Zoo gij het wilt, ons ras dien dag aanschouwen!&rdquo;
+</lg>
+
+<lg>
+  <l rend=i2>Dus trouwden zij en bij hun echtverbond
+  <l rend=i2>Klonk vrolijk klokgeklep het stadjen rond;
+<l>Maar Annie had haar vrolijkheid verloren.
+  <pb n=50 id=pb50 facs="f:050"><l rend=i2>&apos;t Was of een voetstap ruischte langs haar pad.
+<l>&mdash;Van waar? dat wist ze niet&mdash;en in hare ooren
+  <l rend=i2>Een zacht gefluister klonk, ze wist niet wat.
+  <l rend=i2>Ook bleef ze ongaarne alleen t&apos;huis noch verkoos
+  <l rend=i2>Alleen te gaan op straat. Wat schortte haar
+  <l rend=i2>Dan toch, dat, eer zij binnenging, altoos
+  <l rend=i2>Haar hand bleef pozen aan de klink, als waar&apos;
+<l>Zij huivrig om haar drempel te overschrijden?
+  <l rend=i2>Maar Philip scheen de grond niet vreemd te zijn:
+  <l rend=i2>Zij wachtte een kleine en zou naar allen schijn
+<l>Dies angstig zijn, en toen, na &apos;t bange strijden,
+  <l rend=i2>Het kindjen was geboren, scheen het dat
+  <l rend=i2>Zij-zelv nieuw leven ook ontvangen had.
+<l>Toen trad in haar de moeder in het leven;
+  <l rend=i2>Toen was heur Philip al haar vreugde en schat,
+<l>En &apos;t vreemd gevoel, dat zij geen naam kon geven,
+<l>Was voor altoos nu uit haar ziel verdreven.
+  <pb n=51 id=pb51 facs="f:051"><l rend=i2>En waar was Henoch? Kloek en ongestoord
+  <l rend=i2>Voer &apos;t &bdquo;Goed Fortuin&rdquo; langs d&apos; effen zeeplasch voort.
+  <l rend=i2>Schoon bij &apos;t verlaten van de Spaansche kust,
+  <l rend=i2>Door stormen overvallen, &apos;t stevig schip
+  <l rend=i2>In splinters schier verspat was op een klip;
+  <l rend=i2>Maar &apos;t kliefde, nooit door tegenwind ontrust,
+  <l rend=i2>De streken door waar de eeuwge zomer &apos;huist.
+<l>Toen, na een vaart de Kaap om, waar de steven,
+  <l rend=i2>Door wilde&apos; orkaan en hooge zee ombruischt,
+<l>Lang kampen moest bij &apos;t langzaam voorwaart-streven,
+  <l rend=i2>Nu prooi des storms en straks door stilte omsuisd,
+  <l rend=i2>Had &apos;t schip op nieuw de keerkringslijn gekruist.
+  <l rend=i2>Het koeltjen blies en dreef het vaartuig zacht
+<l>Naar de eilandgroepen, tot het in het ende
+<l>De lang gewenschte haven binnen wendde,
+  <l rend=i2>Waar boven de oosterhemel vriendlijk lacht.
+<l>Daar ging ook Henoch zelf nu handel drijven,
+  <l rend=i2>Kocht vreemde goedren, waar, zoo dacht hij vaak,
+<l>Hij t&apos;huis zijn kas uitmuntend meê kon stijven,
+  <l rend=i2>En voor zijn kindren een vergulde draak.
+</lg>
+
+<pb n=52 id=pb52 facs="f:052"><lg>
+<l>Maar zoo gezegend was bij &apos;t huiswaartkeeren
+  <l rend=i2>De vaart lang niet. Wel scheen de vlugge boeg
+<l>Den waterspiegel als een meeuw te scheren,
+  <l rend=i2>En zag het borstbeeld, dat de voorplecht droeg,
+<l>Het schuim gestadig krullen om de zijden
+<l>Der kiel; maar &apos;t werd ras bladstil, en, bij tijden
+  <l rend=i2>Een speelbal van het wisslend windenheir,
+  <l rend=i2>Ervoer ze vreeslijk de ongenâ van &apos;t meir,
+<l>Tot dat, door wilde orkanen overvallen,
+  <l rend=i2>En voortgejaagd bij heemlen, vaal als lood,
+<l>Ze stiet en kraakte en splinterde, bij &apos;t schallen
+<l>Van d&apos;angstkreet: &bdquo;Branding! klip vooruit!&rdquo; en allen
+  <l rend=i2>Met haar verzonken in der waatren schoot.
+<l>Slechts Henoch en twee andren redden &apos;t leven
+  <l rend=i2>Nadat z&apos;aan &apos;t wrak geklemd met hand en tand
+<l>Een bange nacht schier hadden rondgedreven,
+  <l rend=i2>Wierp hen de zee des morgens op het strand
+  <pb n=53 id=pb53 facs="f:053"><l rend=i2>Eens eilands, rijk, maar eenzaam. Schoon was &apos;t land,
+<l>Zijn wortels voedzaam, rijk aan melk zijn nooten,
+<l>En, hield men &apos;t hart voor medelij&apos; gesloten,
+  <l rend=i2>Dan viel het licht te vangen met de hand
+<l>&apos;t Wild en toch tam gedierte, dat hier woonde.
+<l>In een gebergt&apos;, dat zich aan &apos;t strand vertoonde,
+  <l rend=i2>Werd nu een hut gebouwd, half hut, half grot,
+<l>Gedekt met palm en blâren. In dit Eden
+<l>Beklaagde &apos;t drietal, bij de heerlijkheden
+  <l rend=i2>Van d&apos; eeuwgen zomer, zijn rampzalig lot.
+</lg>
+
+<lg>
+  <l rend=i2>De jongste toch, een knaap en weinig meer,
+<l>Had bij die schrikbre schipbreuk veel geleden:
+  <l rend=i2>Drie jaar lag hij in doodsgevaar ter neêr,
+<l>En nimmer dorst het tweetal hem begeven.
+  <l rend=i2>Eens, toen hij was gestorven, zag het paar
+<l>Een omgevallen boom. Door hoop gedreven,
+  <l rend=i2>Niet denkend aan het dreigende gevaar,
+<pb n=54 id=pb54 facs="f:054"><l>Ging Henochs vriend, als de Indianen plegen,
+  <l rend=i2>Met vuur den boom uithollen. En op hem
+  <l rend=i2>Viel nu een zonnesteek. Hij stierf: Gods stem
+<l>Riep Henoch bij die ramp &apos;t: &bdquo;Bereid u!&rdquo; tegen.
+</lg>
+
+<lg>
+  <l rend=i2>De berg, tot aan de kruin met bosch bezet,
+  <l rend=i2>De slingerlanen, &apos;t warrelende net
+<l>Van paden, klimmend altoos meer, als leidden
+  <l rend=i2>Zij hemelwaart; de trotsche bladerkroon
+<l>Die, ver in &apos;t rond, de kokospalmen spreidden,
+  <l rend=i2>Het luchtgewemel, &apos;t onbeschrijflijk schoon
+<l>Van vogels en insekten; &apos;t zachte vonklen
+<l>Der lange klokjens, die, met dartel kronklen,
+  <l rend=i2>De fiere stammen tooiden tot hun trans
+  <l rend=i2>En, altoos verder kruipend, heel het land
+  <l rend=i2>Bebloemden tot het uiterst eind van &apos;t strand,
+  <l rend=i2>De heerlijkheid, de schitterende glans
+  <l rend=i2>Van &apos;s aardrijks breeden gordel, d&apos; oceaan,&mdash;
+<pb n=55 id=pb55 facs="f:055"><l>Dat zag hij, maar wat hij het liefst zou wenschen
+<l>Dat zag hij niet: het aangezicht eens menschen!
+<l>Geen menschenstem mocht hem in de ooren ruischen&mdash;
+  <l rend=i2>Alleen het duizendvoud herhaald gekrijsch
+  <l rend=i2>Van watervogels, kampend om den prijs,
+<l>Het doffe, ver verwijderd dondrend bruischen
+<l>Der branding, brekend op de klippen; &apos;t suizen
+  <l rend=i2>Van &apos;t zwaar geboomt, dat diep in &apos;t hart van &apos;t land
+<l>Zijn bloesems en takken ophing; &apos;t klaatren
+<l>Eens bergstrooms, die naar zee zijn vlugge waatren
+  <l rend=i2>Deed spoeden&mdash;dit nu trof zijn oor op &apos;t strand,
+  <l rend=i2>Als hij er doolde, of heel den langen dag
+  <l rend=i2>In &apos;t dal, dat op de verre golven zag,
+  <l rend=i2>Gezeten was&mdash;schipbreukling, arm aan heil,
+  <l rend=i2>Slechts wachtend, wachtend, op dat ééne&mdash;een zeil!
+  <l rend=i2>Geen zeil van dag tot dag, maar iedren dag
+<l>De morgenzon, haar gouden pijlen over
+<l>De palmen schietend met hun kroon van lover,
+  <l rend=i2>Op varens, en lianen, fijn als rag,
+  <l rend=i2>Langs kloven, &apos;t hart vervullend met ontzag.
+<pb n=56 id=pb56 facs="f:056"><l>De lichtglans met het meir in &apos;t oosten stoeiend:
+  <l rend=i2>De lichtglans boven hem op &apos;t eiland-zelf,
+<l>De lichtglans in het meir van &apos;t west vervloeiend,
+  <l rend=i2>En dan de groote sterren aan &apos;t gewelf
+  <l rend=i2>Des hemels, zonder maat of perk of peil;
+<l>&apos;t Gekreun der zee, wier golven strandwaarts ijlen,
+<l>En wederom de vlugge gouden pijlen
+  <l rend=i2>Der nieuwe morgenzonne&mdash;maar geen zeil!
+</lg>
+
+<lg>
+<l>Wanneer hij daar vaak wakend lag te droomen,
+  <l rend=i2>Zóó stil, dat soms de haagdis op hem kroop,
+<l>Zag hij een reeks van beelden voor zich komen,
+  <l rend=i2>Terwijl een heir van schimmen hem besloop.
+<l>Daar daagden voor zijn geest dan andere oorden,
+  <l rend=i2>Bekende dingen, plaatsen, menschen weêr,
+<l>Op &apos;t ver verwijderd eiland, aan welks boorden,
+  <l rend=i2>Hij zooveel schatten had geteld weleer.
+  <l rend=i2>Zijn kindren, hun gesnap, zijn lieve vrouw,
+  <pb n=57 id=pb57 facs="f:057"><l rend=i2>Zijn kleine woning, de opwaartsgaande weg,
+  <l rend=i2>De molen, &apos;t eenzaam adelijk gebouw,
+  <l rend=i2>Zijn paard, zijn boot, de dichte taxisheg,
+<l>De duinen, waarom najaarsneevlen waren,
+  <l rend=i2>Het zacht geloei van &apos;t huiswaart keerend vee,
+<l>De zoete geur der afgevallen blâren,
+  <l rend=i2>En &apos;t dof geluid der vaalgekleurde zee.
+</lg>
+
+<lg>
+  <l rend=i2>Eens ook dat hij dus wakend droomde, liet,
+<l>Schoon flauw toch vrolijk, ver weg in zijne ooren
+<l>Zich &apos;t klokgelui van &apos;t havenstadjen hooren.
+  <l rend=i2>Toen sprong hij huivrend op, als wist hij niet
+  <l rend=i2>Wáárom, en toen, in al zijn haatlijk schoon,
+  <l rend=i2>Het eiland voor hem doemde, zou gewis
+  <l rend=i2>De man (waar&apos; niet zijn arm hart heên gevloôn
+  <l rend=i2>Tot Dien, die wijl Hij aan alle oorden is,
+  <l rend=i2>Nooit iemand die vertrouwend tot Hem gaat,
+  <l rend=i2>Zich eenzaam doet gevoelen noch verlaat)
+  <l rend=i2>Gestorven zijn in zijn verlaten staat!....
+</lg>
+
+<pb n=58 id=pb58 facs="f:058"><lg>
+  <l rend=i2>Dus vlogen over Henochs grijzend hoofd
+<l>Jaar in, jaar uit, de lente- en wintertijden.
+  <l rend=i2>Maar &apos;t licht der hoop werd nimmer uitgedoofd
+  <l rend=i2>Op &apos;t weêrzien van zijn lieven, hem ontroofd.
+<l>Eens zou hem weêr &apos;t bekende land verblijden,
+  <l rend=i2>Toen eensklaps &apos;t eind kwam van zijn eenzaamheid.
+  <l rend=i2>Een schip&mdash;waar &apos;t volk van dorst om water schreit&mdash;
+  <l rend=i2>Door tegenwinden van zijn koers geleid,
+  <l rend=i2>Dreef naar dit eiland in een donkren nacht,
+  <l rend=i2>Niet wetend waar het lag. Nadat de wacht
+  <l rend=i2>Vroeg in den morgen door een opening
+  <l rend=i2>Des nevelsluiers, die om &apos;t eiland hing,
+  <l rend=i2>De beekjens langs de groene heuvelkling
+  <l rend=i2>Zag stroomen, liet men dra de scheepsbarkas
+<l>Met volk van boord, met last om op te sporen
+  <l rend=i2>Of daar een bron of stroom welde. En welras
+<l>Liet hun gepraat zich op den oever hooren.&mdash;
+  <l rend=i2>Zijn hut uit in de rotskloof, daalde nu
+  <pb n=59 id=pb59 facs="f:059"><l rend=i2>De langgebaarde en hairge kluizenaar,
+  <l rend=i2>Nauw meer een mensch gelijkend, wild en ruw
+  <l rend=i2>Van uitzicht, in een vreemde kleeding, zwaar
+<l>Verbrand van aanschijn, staamlend, driftig momplend,
+<l>Zoo &apos;t scheen als een waanzinge voorwaarts stromplend,
+  <l rend=i2>Door sprakeloozen toornegloed ontgloeid,
+  <l rend=i2>En teekens gevend, niet door hen verstaan;
+  <l rend=i2>Toch wees hij &apos;t scheepsvolk ras de plekjens aan,
+  <l rend=i2>Waar &apos;t zoete water, uit de rots gevloeid,
+  <l rend=i2>In beeken stroomde, en, gaande weg dat hij
+<l>Dus met hen liep en ze altoos hoorde praten,
+  <l rend=i2>Werd hem de lang geboeide tong weêr vrij,
+<l>Zoodat zij hem verstonden. Toen hun vaten
+  <l rend=i2>Het kostbaar vocht bevatten, namen zij
+  <l rend=i2>Hem meê naar &apos;t schip, en daar vertelde hij
+<l>In afgebroken klanken zijn weêrvaren.
+<l>En schoon er in den aanvang hoorders waren
+  <l rend=i2>Die &apos;t nauw geloofden, was in &apos;t eind aan boord
+  <l rend=i2>Geen die meer twijfelde aan zijn eerlijk woord.
+<l>&apos;t Verbaasde en roerde er allen, en zij gaven
+  <pb n=60 id=pb60 facs="f:060"><l rend=i2>Hem kleêren en vrije&apos; overtocht&mdash;en vaak
+<l>Nam hij, om zijn erkentlijkheid te staven,
+  <l rend=i2>Deel aan &apos;t verkeer van &apos;t scheepsvolk&mdash;en hun taak.
+<l>Niet een van hen zag in zijn landschap &apos;t leven,
+  <l rend=i2>Noch kon op Henochs vaak herhaalde vraag
+<l>Naar wat hem &apos;t dierbaarst was hem <corr sic=andwoord>antwoord</corr> geven.
+  <l rend=i2>De reis ging (&apos;t schip was half versleten) traag.
+  <l rend=i2>Maar altoos vloog hij op verbeeldingsschacht
+  <l rend=i2>Den wind vooruit, totdat, op zeekre nacht,
+  <l rend=i2>Terwijl de maan door wolkensluiers heen
+  <l rend=i2>Met matten glans den breeden plasch bescheen,
+  <l rend=i2>Zijn bloed als dat eens minnaars was ontbrand,
+  <l rend=i2>En hij, bij &apos;t gloren van den morgenstond,
+  <l rend=i2>&apos;t Gegeur van Englands zachtbedauwden grond,
+  <l rend=i2>Dat aanwoei van zijn sombre krijtrotswand,
+  <l rend=i2>Inademde.&mdash;Men bracht wat geld bijeen.
+  <l rend=i2>Voor d&apos; armen man, zoo eenzaam, zoo alleen,
+<l>Bracht kapitein en scheepsvolk zijne gaven.
+  <l rend=i2>Toen &apos;t strand opvarend zet men hem aan land
+<l>In d&apos; eens door hem met smart verlaten haven.
+</lg>
+
+<pb n=61 id=pb61 facs="f:061"><lg>
+<l>Tot niemand richtte Henoch daar het woord.
+<l>Maar huiswaarts&mdash;huis?&mdash;wat huis? bezat hij nog
+<l>Een huis, zijn huis?&mdash;liep hij dien middag voort.
+<l>&apos;t Was zonnig weêr, maar koud en huivrig toch,
+<l>Totdat door iedere opening in den wand
+<l>Der krijt- en mergelrotsen, waar het land
+<l>Door uitzag op het meir, een zeedamp drong,
+<l>Die om de streek een nevelmantel hong,
+<l>Het uitzicht op den straatweg voor hem heen
+<l>Gants afsneed, en ter rechte en linkerhand
+<l>Niets zichtbaar liet dan slechts een smallen rand.
+<l>Dor kreupelhout, of weide-, of akkerland.
+<l>Het treurend roodborstje&apos;, eenzaam en alleen,
+<l>Zat op de half ontblaarden boom en floot,
+<l>En &apos;t doode blad viel, loom en zwaar als lood,
+<l>Onhoorbaar door den mistdamp naar beneên.
+<l>Al dikker viel de dichte regen neêr,
+<pb n=62 id=pb62 facs="f:062"><l>De duisternis wies telkens meer en meer,
+  <l rend=i2>Tot hij, naar &apos;t scheen, een groot omneveld licht
+  <l rend=i2>In &apos;t einde zich zag blinken in &apos;t gezicht....
+  <l rend=i2>En hij betrad zijne oude woonplaats weêr.
+</lg>
+
+<lg>
+<l>De straat ging hij nu in met wankle schreden,
+<l>En strakken blik, door &apos;t bangst gevoel bestreden.
+  <l rend=i2>Hij kwam aan &apos;t huis, waar Annie woonde en hem
+<l>Haar liefde schonk, waar in die zeven jaren
+<l>Zijn lieve kindren ook geboren waren.
+  <l rend=i2>Maar toen hij daar geen licht zag en geen stem
+<l>Van daar vernam&mdash;kil grijnsde er in den regen
+<l>Zoo dicht als stof, &apos;t verkoopbiljet hem tegen&mdash;
+  <l rend=i2>Toen werd hem &apos;t bang, en somber keerde hij
+  <l rend=i2>Met één gedachte: &bdquo;Dood, of dood voor mij!&rdquo;
+<pb n=63 id=pb63 facs="f:063"><l>Hij trad nu naar de kleine stadswerf heen,
+<l>En zocht een herberg, die hij in &apos;t verleên
+<l>Gekend had, op: een geveltjen van hout,
+<l>Misschien wel vóór drie eeuwen al gebouwd,
+<l>Geschoord met balken, half verweerd en gants
+<l>Bouwvallig, dat hij dacht: hij zou het thands
+<l>Wel niet meer vinden; maar den herbergier
+<l>Vond hij niet meer. Zijn weduw Mirjam Lane
+<l>Was, na zijn sterven, in zijn plaats getreên,
+<l>En zette, met steeds minderend vertier,
+<l>De zaak nu voort<corr>.</corr> In vroeger tijd kwam hier
+<l>&apos;t Luidruchtige matrozenvolk bijeen;
+<l>Maar &apos;t huis was nu veel stiller dan voorheen,
+<l>En bood voor weinig geld een nachtkwartier.
+<l>Hier ging voor Henoch menig dag daarheen.
+</lg>
+
+<lg>
+<l>Dan Mirjam Lane, goedhartig en vol praats,
+<l>Liet hem geen rust en zat vaak bij hem neêr,
+  <pb n=64 id=pb64 facs="f:064"><l rend=i2>En deed hem dan een ellenlang relaas
+  <l rend=i2>Niet slechts van wat in &apos;t stadjen lang weleer
+  <l rend=i2>Gebeurd was, maar ook, wijl zij Henoch niet
+  <l rend=i2>Herkende (hij toch was zoo wit van kruin,
+  <l rend=i2>Zoo vreeslijk krom geworden en zoo bruin)
+  <l rend=i2>Van &apos;t geen er met de zijnen was geschied;
+  <l rend=i2>Verhaalde hem zijns jongsten dood; de ellend
+  <l rend=i2>En de armoê, die zijne Annie uit moest staan;
+  <l rend=i2>Hoe Philip trouw zijn kindren school liet gaan;
+  <l rend=i2>Zijn lang gevrij om haar en hoe ze in &apos;t end,
+<l>Hem, na lang aarzlen &apos;t jawoord had gegeven:
+<l>Hij hoorde, hoe ze een kind van Philip &apos;t leven
+  <l rend=i2>Geschonken had. Geen enkle wolk van smart
+  <l rend=i2>Verried op zijn gelaat zijn lijdend hart.
+  <l rend=i2>Wie &apos;t had gezien, moest denken dat haar woord
+  <l rend=i2>Wie &apos;t sprak meer trof dan hem die &apos;t had gehoord.
+<l>Slechts toen zij zuchtte: &bdquo;Henoch liet het leven,
+  <l rend=i2>&bdquo;Want hij leed schipbreuk op den oceaan&rdquo;
+  <l rend=i2>Toen lispte hij, dat zij &apos;t niet kon verstaan,
+<l>Zijn hoofd bedenklijk schuddend: &bdquo;liet het leven,
+  <pb n=65 id=pb65 facs="f:065"><l rend=i2>&bdquo;Want hij leed schipbreuk op den oceaan&rdquo;,
+<l>En in zijn hart herhaalt hij: &bdquo;liet het leven&rdquo;.
+</lg>
+
+<lg>
+  <l rend=i2>Maar sterk ontwaakte in Henochs hunkrend hart
+  <l rend=i2>De wensch om haar te aanschouwen. &bdquo;O, indien
+  <l rend=i2>&bdquo;&apos;k Haar lief gelaat slechts éénmaal weêr mocht zien.
+  <l rend=i2>&bdquo;Och, wist ik dat geen zorg haar kwelt, geen smart,
+  <l rend=i2>&bdquo;En zij gelukkig is!&rdquo;&mdash;Dit denkbeeld dreef
+  <l rend=i2>Aan d&apos;avond van een killen najaarsdag,
+  <l rend=i2>Zoo somber als November zelden zag,
+  <l rend=i2>Hem heuvelwaart. Daar zat hij neêr, hij bleef
+<l>Er lang, den blik gevestigd op de dingen
+  <l rend=i2>In &apos;t rond gespreid beneden aan zijn voet,
+<l>En duizend bonte en droeve erinneringen
+  <l rend=i2>Bestormden met geweld zijn vol gemoed.
+  <l rend=i2>De zachte gloed van een gezellig licht
+  <l rend=i2>Blonk nu uit Philips huis hem in &apos;t gezicht,
+  <l rend=i2>Zoo als het licht der baak den zeemeeuw doet,
+  <pb n=66 id=pb66 facs="f:066"><l rend=i2>Totdat hij zich op &apos;t glas te bersten stoot
+  <l rend=i2>En &apos;t zwervend leven eindigt in den dood.
+</lg>
+
+<lg>
+  <l rend=i2>Want Philips huis, schoon &apos;t afgezonderd stond,
+  <l rend=i2>Lag vóór aan straat; &apos;t laatste aan de zij&apos; van &apos;t land.
+  <l rend=i2>Maar vlak daar achter bloeide, gants in &apos;t rond
+  <l rend=i2>Ommuurd, een tuin, waarin aan d&apos;achterkant
+<l>Een deurtjen naar de duinen henenleidde.
+<l>En midden in den kleinen bloemhof spreidde
+  <l rend=i2>Een iepenboom zijn takken vrank en vrij.
+  <l rend=i2>Een pad liep langs den muur, terwijl daarbij
+<l>Een ander pad den tuin in tweeën scheidde.
+  <l rend=i2>Maar Henoch meed het middenpad en nam
+  <l rend=i2>Zijn weg den muur langs, sloop naar d&apos;iepenstam
+  <l rend=i2>En school er achter weg, en zag van daar
+<l>Een schouwspel, dat wis beter waar&apos; vermeden,
+<l>Indien &apos;t verdriet en &apos;t leed, door hem geleden,
+  <l rend=i2>Voor meerdren of vermindren vatbaar waar&apos;.
+</lg>
+
+<pb n=67 id=pb67 facs="f:067"><lg>
+<l>Want in de zilvren bekers en de schalen
+<l>Van &apos;t hoekbuffet zag hij het haardvuur stralen,
+  <l rend=i2>Het vlamgeflikker weemlen af en aan.
+<l>Rechts van den haard zat Philip, de afgewezen,
+<l>Versmaadde vrijer uit het lang voordezen,
+  <l rend=i2>Kloek, krachtig, rood van wang en welgedaan
+  <l rend=i2>Het kleinste kind dodijnend op zijn knie;
+  <l rend=i2>Daar over hem een bloeiend meisjen boog
+  <l rend=i2>Met goudblond hair en vriendlijk blauwend oog,
+  <l rend=i2>Een laatre, maar nog schooner, Annie Lee.
+  <l rend=i2>Een beenen ring, gebonden aan een lint,
+  <l rend=i2>Liet zij gestadig bunglen langs het kind,
+<l>Wiens aandacht en begeerte zij dus wekte,
+<l>Terwijl &apos;t in drift zijn mollige armtjens strekte
+  <l rend=i2>Naar &apos;t speelgoed, dat hij steeds wou grijpen maar
+  <l rend=i2>Nooit greep&mdash;en allen lachten met elkaâr.
+  <l rend=i2>Links van den haard ontwaarde hij &apos;t gezicht
+  <pb n=68 id=pb68 facs="f:068"><l rend=i2>Der moeder, die haar oog sloeg op het wicht,
+  <l rend=i2>En nu en dan weêr tot haar zoon gericht,
+  <l rend=i2>Die naast haar stond in al de kracht der jeugd,
+  <l rend=i2>Hem door haar woord steeds lachen deed van vreugd.
+  <l rend=i2>Toen nu de dood gewaande man zijn vrouw,
+<l>Die nu niet meer zijn vrouw mocht zijn, ontwaarde,
+<l>En op haar kind, maar niet het zijne, staarde,
+  <l rend=i2>Toen hij haar zag die vrede, liefde en trouw,
+<l>En ook zijn eigen kindren, die God spaarde,
+  <l rend=i2>Maar hem ook, d&apos; ander, heerschende in zijn plaats,
+  <l rend=i2>Bezitter van zijn rechten, en, helaas!
+  <l rend=i2>Van zijner kindren liefde, eens al zijn schat&mdash;
+  <l rend=i2>Toen, schoon hem Mirjam &apos;t al geschilderd had,
+  <l rend=i2>Wijl &apos;t geen men hoort niet treft als &apos;t geen men ziet,
+  <l rend=i2>Toen schrikte hij en greep een tak, en liet
+<l>Bijna een kreet in zijn vertwijfling hooren,
+<l>Die dat geluk eensklaps had kunnen storen
+<l>Als &apos;t oordeel dat den zondaar dringt in de ooren.
+<pb n=69 id=pb69 facs="f:069"><l>Toen, als een dief, sloop Henoch op zijn teenen,
+  <l rend=i2>Opdat het kiezelzand niet kraken mocht,
+<l>De handen aan den muur geslagen, henen,
+  <l rend=i2>Om niet in zwijm te vallen op dien tocht.
+  <l rend=i2>Daarop, de deur genaderd van den tuin,
+  <l rend=i2>Sloot hij haar open, en weêr zachtkens toe
+  <l rend=i2>Als die van &apos;t ziekvertrek, en op het duin
+  <l rend=i2>Stond Henoch daar, des bittren levens moê.
+</lg>
+
+<lg>
+  <l rend=i2>Daar zonk hij, toen hij knielen wilde, ineen,
+  <l rend=i2>Voorover op den grond en sprak zijn beên,
+  <l rend=i2>De vingers in het zand:
+</lg>
+
+<lg>
+                              <l rend="hemistich(^)">&bdquo;Te zwaar, te zwaar
+  <l rend=i2>&bdquo;Is mij die last! O, waarom mij van daar
+<l>&bdquo;Gevoerd? Almachtig God, getrouwe Heiland!
+<pb n=70 id=pb70 facs="f:070"><l>&bdquo;Gij, die mij staande hieldt op &apos;t eenzaam eiland,
+  <l rend=i2>&bdquo;Houd, Vader! mij in dees mijn eenzaamheid
+<l>&bdquo;Een poos nog staande. Laat mij nooit vergeten
+  <l rend=i2>&bdquo;Dat dit door mij haar nimmer word&apos; gezeid,
+<l>&bdquo;Help mij opdat ik haar het nooit laat weten.
+  <l rend=i2>&bdquo;Steun mij, dat ik hun vrede niet verstoor&apos;!
+<l>&bdquo;Mijn kindren ook? Mag ik tot hen niet spreken?
+  <l rend=i2>&bdquo;Ik ga bij hen toch voor een vreemde door....
+<l>&bdquo;&apos;k Zou mij verraden.... al mijn kracht zou breken.
+  <l rend=i2>&bdquo;Neen, nimmer! nimmer! &apos;k zal den vaderkus
+<l>&bdquo;Haar, in wie &apos;k gants heur moeder zie herleven,
+<l>&bdquo;Noch hem, mijn zoon, op wien ik trotsch ben, geven....
+  <l rend=i2>&bdquo;&apos;t Staat vast, o Heer! ik smeek &apos;t U&mdash;steun mij dus!&rdquo;
+</lg>
+
+<lg>
+  <l rend=i2>Gedachte en spraak begaven hem. Een poos
+  <l rend=i2>Lag hij in zwijm, en toen hij, opgestaan,
+  <l rend=i2>Den weg naar &apos;t eenzaam zolderkluisken koos,
+  <l rend=i2>En naar omlaag de straat weêr in ging slaan,
+<pb n=71 id=pb71 facs="f:071"><l>Kon hij maar niet verbannen, niet vergeten
+  <l rend=i2>Wat telkens zich weêr opdrong aan zijn brein,
+  <l rend=i2>Als ware &apos;t van een lied een zoet refrein,
+<l>&bdquo;&apos;t Haar zeggen nooit&mdash;en &apos;t nooit haar laten weten!&rdquo;
+</lg>
+
+<lg>
+  <l rend=i2>Maar toch, gants ongelukkig was hij niet.
+  <l rend=i2>Hij werd geschraagd, gesteund door zijn besluit,
+  <l rend=i2>Zijn vast geloof, zijn rustloos bidden, uit
+  <l rend=i2>Het diepst van &apos;t hart, en door al &apos;t bang verdriet
+  <l rend=i2>En lijden dezer wereld heen, geweld
+  <l rend=i2>Als bronnen van zoet water in de zee.&mdash;
+  <l rend=i2>&apos;t Hield alles in zijn ziel het leven reê.
+  <l rend=i2>&bdquo;Die mulders vrouw, van wie gij hebt verteld,&rdquo;
+<l>Vroeg hij aan Mirjam, &bdquo;vreest zij niet bij tijden
+  <l rend=i2>&bdquo;Dat nog haar eerste man in leven is?&rdquo;
+  <l rend=i2>&mdash;&bdquo;Ja, &apos;t arme schepsel,&rdquo; zeide Mirjam, &bdquo;wis
+<l>&bdquo;Ducht zij dit nog; gij zoudt haar zeer verblijden
+  <l rend=i2>En vrij wat troost en zielsverlichting biên,
+  <pb n=72 id=pb72 facs="f:072"><l rend=i2>&bdquo;Als gij kondt zeggen: &apos;k heb zijn lijk gezien.&rdquo;&mdash;
+<l>En Henoch dacht: heb ik mijn geest gegeven
+  <l rend=i2>In &apos;s Heeren hand, dan zal zij &apos;t weten, &apos;k wacht
+<l>Zijn tijd af&mdash;en ging werken om te leven.
+  <l rend=i2>Elke aalmoes toch werd door den man veracht.
+<l>In menig handwerk was hij zeer bedreven,
+  <l rend=i2>Hij, timmerman en kuiper tevens; goed
+  <l rend=i2>Werd meê door hem een visschers net geboet;
+<l>Ook hielp hij uit de haven menigmalen
+<l>Een handelsbark of schoener buiten halen
+  <l rend=i2>Of laden, al naar dit het toeval bood.
+  <l rend=i2>Zoo won hij zich een armlijk stukjen brood;
+<l>Maar sedert hij slechts voor zich-zelven werkte,
+  <l rend=i2>En zonder hoop, was daar geen vreugde bij,
+<l>Geen leven, dat hem voor het leven sterkte....
+  <l rend=i2>Een jaar na zijn terugkomst voelde hij
+<l>Zich zwakker worden en begon te kwijnen.
+  <l rend=i2>Een slepende en benauwde kwaal begon
+<l>Al meer en meer zijn krachten te ondermijnen,
+  <l rend=i2>Zoodat hij straks niet langer werken kon.
+  <pb n=73 id=pb73 facs="f:073"><l rend=i2>Nu hield hij &apos;t huis, zijn stoel, in &apos;t eind zijn bed.
+  <l rend=i2>Al werd zijn ziel door &apos;t pijnlijkst weê verplet,
+  <l rend=i2>Hij droeg het kalm, want waarlijk blijder ziet
+  <l rend=i2>Geen schipbreukling op &apos;t grauwe zeegebied
+<l>Door &apos;t nevelfloers het worstelende streven
+<l>Der boot, waarmeê de zoete hoop op &apos;t leven,
+<l>Reeds menigmaal in wanhoop opgegeven,
+  <l rend=i2>Terugkeert in het afgestreden hart,
+<l>Dan hij de dood hem zacht zag naderzweven,
+  <l rend=i2>En daarmeê &apos;t eind van alle zielesmart.
+</lg>
+
+<lg><l>Want in dit naadren loeg, met lieflijk gloren,
+  <l rend=i2>Een zoeter hoop, daar Henoch dacht: als ik
+<l>Gestorven ben, mag eerst mijn Annie &apos;t hooren,
+  <l rend=i2>Dat &apos;k haar bemind heb tot mijn jongsten snik.
+  <l rend=i2>Luid riep hij Mirjam Lane en zeî haar: Vrouw,
+  <l rend=i2>&bdquo;&apos;k Heb een geheim, maar eer ik &apos;t u vertrouw,
+  <l rend=i2>&bdquo;Zweert ge op den Bijbel, die daar ginder staat,
+<pb n=74 id=pb74 facs="f:074"><l>&bdquo;&apos;t Aan niemand vóór ik dood ben te openbaren.&rdquo;&mdash;
+  <l rend=i2>&bdquo;Dood!&rdquo; riep het goede schepsel, &bdquo;welk een praat!
+<l>&bdquo;Wel man, ik wed gij leeft nog tal van jaren!&rdquo;
+  <l rend=i2>&bdquo;Zweer!&rdquo; klonk nu Henoch&apos;s ernstig <corr sic=andwoord>antwoord</corr>, &bdquo;zweer
+  <l rend=i2>&bdquo;Op &apos;t Heilig woord!&rdquo; En Mirjam, half ontdaan,
+  <l rend=i2>Zwoer op den Bijbel. Toen sprak Henoch weêr
+  <l rend=i2>En keek haar strak met vragende oogen aan:
+  <l rend=i2>&bdquo;Zeg, hebt gij Henoch Arden in deez&apos; stad
+  <l rend=i2>&bdquo;Gekend?&rdquo;&mdash;&bdquo;Of &apos;k hem gekend heb? Wis en drie&rdquo;,
+  <l rend=i2>Hernam zij, &bdquo;kijk, &apos;t is of ik hem nog zie
+  <l rend=i2>&bdquo;De straat afkomen, recht van &apos;t molenpad.
+<l>&bdquo;&apos;t Hoofd in den nek, om niemand zich bekreunend&rdquo;.
+<l>En zachtkens sprak hij, bijna droevig steunend:
+  <l rend=i2>&bdquo;Nu is zijn hoofd gebogen, ach, om hem
+<l>&bdquo;Kreunt niemand zich. &apos;k Denk dat hij geen drie dagen
+  <l rend=i2>&bdquo;Meer leeft; ik ben die man&rdquo;. Met schrille stem
+<l>Hernam de vrouw, half van den schrik verslagen,
+  <l rend=i2>Half ongeloovig: &bdquo;Kom, gij, Arden? gij?
+  <l rend=i2>&bdquo;Neen, neen! dat kan niet mogelijk wezen! Hij
+  <l rend=i2>Won &apos;t zeker wel in lengte een voet van u!
+  <pb n=75 id=pb75 facs="f:075"><l rend=i2>&bdquo;Mij boog Gods hand ter neêr tot wat ik nu
+<l>&bdquo;Geworden ben. Mijn hartzeer en mijn leven
+<l>&bdquo;Op &apos;t eiland heeft mijn kracht een knak gegeven.
+  <l rend=i2>&bdquo;Toch weet: ik ben het die haar&mdash;maar tweemaal
+  <l rend=i2>&bdquo;Veranderde die naam&mdash;ik trouwde haar
+  <l rend=i2>&bdquo;Die Philip Ray getrouwd heeft. Zet u daar
+  <l rend=i2>&bdquo;En luister!&rdquo; Toen deed Henoch haar &apos;t verhaal
+<l>Van zijn vertrek, zijn schipbreuk, &apos;t eenzaam leven,
+  <l rend=i2>Zijn wederkomst ten verren landen uit,
+  <l rend=i2>Zijn wederzien van Annie, zijn besluit
+<l>En hoe hij daaraan was getrouw gebleven.
+  <l rend=i2>En toen de vrouw dat hoorde stroomde een vloed
+<l>Van ras gewelde tranen langs haar wangen,
+<l>Terwijl met steeds hernieuwde kracht &apos;t verlangen
+  <l rend=i2>Haar opwelde in het liefderijk gemoed,
+<l>Om heel de havenstad in &apos;t rond te snellen,
+<l>En aan wie zij ontmoette te vertellen
+  <l rend=i2>Dat Henoch Arden bij haar was, en wat
+  <l rend=i2>Hij jaar en dag al leeds geleden had.
+  <l rend=i2>Maar toen, gedachtig aan haar duren eed,
+  <pb n=76 id=pb76 facs="f:076"><l rend=i2>Zeî ze enkel: &bdquo;Laat mij om uw kindren gaan,
+  <l rend=i2>&bdquo;Niet waar, dat is mij immers toegestaan?&rdquo;
+  <l rend=i2>Nu rees zij van heur stoel, en stond gereed
+  <l rend=i2>De daad te voegen bij het woord, te meer
+  <l rend=i2>Omdat haar taal hem vluchtig wanklen deed,
+  <l rend=i2>Maar na wat aarzlens sprak de kranke weêr:
+</lg>
+
+<lg>
+  <l rend=i2>&bdquo;Vrouw! stoor mij, nu &apos;k mijn einde naadren zie,
+  <l rend=i2>&bdquo;Toch in mijn plannen niet, opdat ik die
+  <l rend=i2>&bdquo;Getrouw blijf tot mijn taak is afgedaan.
+  <l rend=i2>&bdquo;Ga daar nu nog eens zitten, hoor mij aan;
+  <l rend=i2>&bdquo;Versta mij goed! Ik draag u op, wanneer
+  <l rend=i2>&bdquo;Gij Annie zien zult haar te zeggen, dat
+  <l rend=i2>&bdquo;Ik stierf, haar zeegnend, voor haar biddend, teêr
+  <l rend=i2>&bdquo;Haar minnend, ja, dat &apos;k haar heb liefgehad,
+  <l rend=i2>&bdquo;Den wreeden slagboom tusschen ons ten spijt,
+  <l rend=i2>&bdquo;Als toen zij &apos;t jeugdig hoofd eens hield gevlijd
+<l>&bdquo;Aan &apos;t hart haars vriends. Deel mijne dochter mede,
+<pb n=77 id=pb77 facs="f:077"><l>&bdquo;Dat eer &apos;k gegaan ben tot der zaalgen vrede,
+<l>&bdquo;Ik aan haar dacht met liefde en zegenbede.
+<l>&bdquo;Vermeld mijn zoon, dat ik hem zeegnend, de oogen
+  <l rend=i2>&bdquo;Gesloten heb. Zeg Philip evenzeer
+  <l rend=i2>&bdquo;Dat ik, hem zeegnend, heenga tot den Heer,
+<l>&bdquo;Hij was ons goed en met ons lot bewogen.
+  <l rend=i2>&bdquo;En&mdash;zoo mijn kindren somtijds na mijn dood
+  <l rend=i2>&bdquo;Mij willen zien, dien zij ternauwernood
+<l>&bdquo;Nog kenden toen ik leefde&mdash;laat hen komen,
+  <l rend=i2>&bdquo;Ik ben hun vader!.. maar zij mag het niet,
+<l>&bdquo;Want in &apos;t vervolg was haar de rust benomen,
+  <l rend=i2>&bdquo;Neen, &apos;t kostte haar slechts kwelling en verdriet
+  <l rend=i2>&bdquo;Had zij mijn lijk gezien. En nu&mdash;slechts een
+  <l rend=i2>&bdquo;Der mijnen snelt hierboven naar mij heen,
+  <l rend=i2>&bdquo;Om mij te omhelzen. Dit &apos;s zijn hair! het werd
+  <l rend=i2>&bdquo;Door Annie afgesneden, en zij gaf
+  <l rend=i2>&bdquo;Het mij&mdash;ik droeg &apos;t die jaren op mijn hart
+  <l rend=i2>&bdquo;En &apos;k dacht het meê te nemen in mijn graf.
+  <l rend=i2>&bdquo;Maar &apos;k ben veranderd van gedachten, want
+  <l rend=i2>&bdquo;&apos;k Hervind mijn zoontje in &apos;t Hemelsch Vaderland.
+<pb n=78 id=pb78 facs="f:078"><l>&bdquo;Daarom, als &apos;k ben gescheiden uit dit leven,
+<l>&bdquo;Moet gij het aanstonds, aanstonds aan haar geven:
+  <l rend=i2>&bdquo;&apos;t Zal haar tot troost verstrekken en meteen
+  <l rend=i2>&bdquo;Bewijzen dat ik Henoch ben en geen
+  <l rend=i2>&bdquo;Geen ander.&mdash;&rdquo;
+</lg>
+
+<lg>
+            <l rend="hemistich(^)">Hierop zweeg hij. Mirjam Lane
+  <l rend=i2>Beloofde hem met zulk een woordenvloed
+  <l rend=i2>Zijn wenschen op te volgen, dat hij &apos;t oog
+  <l rend=i2>Nog eenmaal op haar vestigde en vol gloed
+  <l rend=i2>Herhaalde wat hem zwaar op &apos;t harte woog,
+  <l rend=i2>En zij opnieuw en nog eens weder sprak:
+  <l rend=i2>&bdquo;Verlaat u op mijn woord toch!&rdquo; Daarop stak
+  <l rend=i2>Den derden nacht, nadat dees laatste wil
+  <l rend=i2>Haar opgedragen was en Henoch stil
+  <l rend=i2>En zwaar te sluimren lag, en Mirjam Lane
+<l>Bij tusschenpoozen dommlend dutte en waakte,
+  <pb n=79 id=pb79 facs="f:079"><l rend=i2>Een storm uit zee op, voer door &apos;t stadjen heen,
+<l>Dat zelfs op &apos;t duin er ieder huis van kraakte.
+  <l rend=i2>En Henoch ook werd wakker, richtte in &apos;t bed
+  <l rend=i2>Zich op en strekte beî zijn armen uit
+  <l rend=i2>En riep toen met een stem, zoo vol als luid,
+  <l rend=i2>&bdquo;Een zeil! Een zeil! God lof, ik ben gered!&rdquo;
+  <l rend=i2>Viel ruglings in zijn kussen&mdash;en geen woord
+  <l rend=i2>Werd uit den mond des zwervers meer gehoord.
+</lg>
+
+<lg>
+  <l rend=i2>Zoo mocht die heldenziel het stof ontvliên&mdash;
+<l>En toen zijn lijk op &apos;t kerkhof werd begraven,
+<l>Was daar door niemand in die kleine haven
+  <l rend=i2>Een plechtiger uitvaart ooit gezien.
+</lg></lg>
+
+
+
+<p rend="align(right)">Naar <hi rend=ex>ALFRED TENNYSON</hi>.
+
+
+
+</body>
+<back id=backmatter>
+<div1 id=backcover type=Cover>
+
+
+<p><figure id=spine>
+<figDesc>Oorspronkelijke rug.</figDesc>
+</figure>
+
+<p>&nbsp;
+
+<p><figure id=back>
+<figDesc>Oorspronkelijke achterkant.</figDesc>
+</figure>
+
+
+</div1>
+
+<divGen id=toc type=toc>
+
+<divGen type=Colophon>
+
+
+</back>
+</text>
+</TEI.2>
+
+<!--
+
+CHECKLIST (X = done; / = not applicable)
+
+Initial cleanup
+
+[ ] Check all pb-tags, and join lines
+[ ] Move all footnotes in-line
+[ ] Tag headers
+[X] Fix all [** Proofer comments]
+[ ] Start all paragraphs with the p-tag
+[ ] Change b, sc, g tags to hi tags with correct attributes.
+[ ] Change tb tags to milestone tags.
+[ ] Fix multiple spaces in a row
+[ ] Verify all paragraphs start with p-tag, also those starting with a tag.
+
+TEI header
+
+[ ] Add TEI header.
+[ ] Fill in details in TEI header
+[ ] Verify Author dates and add to TEI header.
+[ ] Document on-line scan sources.
+[ ] Fill in description in noteStmt.
+[ ] Fill in keywords / Subjects
+[ ] Add auto-generated colophon divGen tag.
+[ ] Fill in reference to LOC record (https://catalog.loc.gov/).
+[ ] Fill in reference to OpenLibrary record (https://openlibrary.org).
+[ ] Fill in reference to WorldCat record (source and work) (https://www.worldcat.org).
+[ ] Generate unique epub-id. (https://www.guidgenerator.com/)
+
+Verse
+
+[ ] Tag all verse.
+[ ] Apply proper indentation: rend=&bdquo;indent(2)&rdquo;
+
+Lists
+
+[ ] Tag all lists.
+
+Tables
+
+[ ] Format tables
+[ ] Apply ditto-tags.
+
+Table of Contents
+
+[ ] Format table(s) of contents
+[ ] Link entries in table of contents
+[ ] Verify each link
+[ ] Compare with generated table of contents
+
+Images
+
+[ ] Include all illustrations
+[ ] Verify positioning of images makes sense.
+
+Spelling
+
+[ ] Verify generated wordlist
+[ ] Tag language usage
+
+Tools
+
+[ ] Verify Gutcheck
+[ ] Verify jeebees
+
+Miscellany
+
+[ ] Check for [Greek: ...] notation
+[ ] Curlify quotes
+[ ] Check for wrong quotes
+[ ] Disambiguate single quotes, apostrophes, and primes.
+[ ] Unwrap lines
+[ ] Check for lines not unwrapped
+[ ] Verify sequence of page-numbers
+[ ] Handle fractions, such as 1/2.
+[ ] Converted all fragments in uppercase to mixed case.
+
+Text Version
+
+[ ] Remove FIGURE notations
+[ ] Verify empty lines between chapter headings
+[ ] Verify empty lines around poetry and lists
+[ ] Center poetry
+[ ] Format title page
+[ ] Remove Ads
+[ ] Format Tables
+[ ] Verify Greek and other transliterations
+
+Additional Checks and Edits (Add as needed for a specific book)
+
+[ ] ....
+
+Posting
+
+[ ] Make sure dp-post@pgdp.net is cc-ed on upload
+
+Post-Posting
+
+[ ] Update status to 1.0 (i.e. Posted).
+[ ] Include PG number and posting date in metadata
+
+-->

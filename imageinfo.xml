@@ -1,0 +1,10 @@
+<images xmlns="http://www.gutenberg.ph/2006/schemas/imageinfo">
+<image path="images/back.jpg" filesize="334343" filedate="2024-11-10 22:06:41" width="994px" height="1440px"/>
+<image path="images/front.jpg" filesize="394959" filedate="2024-11-10 22:06:41" width="1006px" height="1440px"/>
+<image path="images/initial-d.png" filesize="6744" filedate="2024-11-10 22:06:41" width="232px" height="295px"/>
+<image path="images/inside.png" filesize="397151" filedate="2024-11-10 22:06:41" width="957px" height="1440px"/>
+<image path="images/qr74724.png" filesize="268" filedate="2024-11-15 07:29:34" width="148px" height="148px"/>
+<image path="images/spine.jpg" filesize="31756" filedate="2024-11-10 22:06:41" width="1440px" height="103px"/>
+<image path="images/title.png" filesize="8171" filedate="2024-11-10 22:06:41" width="903px" height="133px"/>
+<image path="images/titlepage.png" filesize="53325" filedate="2024-11-10 22:06:41" width="1026px" height="1440px"/>
+</images>
